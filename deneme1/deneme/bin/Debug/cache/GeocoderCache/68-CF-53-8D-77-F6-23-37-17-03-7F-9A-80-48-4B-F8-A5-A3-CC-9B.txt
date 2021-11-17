@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4XH8+J5",
+               "short_name" : "4XH8+J5",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Sarıyer",
+               "short_name" : "Sarıyer",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "4XH8+J5 Sarıyer/İstanbul, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.12912499999999,
+                  "lng" : 28.9655
+               },
+               "southwest" : {
+                  "lat" : 41.129,
+                  "lng" : 28.965375
+               }
+            },
+            "location" : {
+               "lat" : 41.1290625,
+               "lng" : 28.9654375
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.1304114802915,
+                  "lng" : 28.9667864802915
+               },
+               "southwest" : {
+                  "lat" : 41.1277135197085,
+                  "lng" : 28.9640885197085
+               }
+            }
+         },
+         "place_id" : "GhIJ61G4HoWQREAR_dR46Sb3PEA",
+         "plus_code" : {
+            "compound_code" : "4XH8+J5 Sarıyer/İstanbul, Turkey",
+            "global_code" : "8GHC4XH8+J5"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

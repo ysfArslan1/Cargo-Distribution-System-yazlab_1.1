@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4J2F+2Q",
+               "short_name" : "4J2F+2Q",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Karasu",
+               "short_name" : "Karasu",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sakarya",
+               "short_name" : "Sakarya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "4J2F+2Q Karasu/Sakarya, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.100125,
+                  "lng" : 30.6245
+               },
+               "southwest" : {
+                  "lat" : 41.1,
+                  "lng" : 30.624375
+               }
+            },
+            "location" : {
+               "lat" : 41.1000625,
+               "lng" : 30.6244375
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.1014114802915,
+                  "lng" : 30.6257864802915
+               },
+               "southwest" : {
+                  "lat" : 41.0987135197085,
+                  "lng" : 30.6230885197085
+               }
+            }
+         },
+         "place_id" : "GhIJK4cW2c6MREARYOXQItufPkA",
+         "plus_code" : {
+            "compound_code" : "4J2F+2Q Karasu/Sakarya, Turkey",
+            "global_code" : "8GHG4J2F+2Q"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJEUvlZEtTDkARfJ9YGol5ygE",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJEUvlZEtTDkARfJ9YGol5ygE",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.6460601,
+               "lng" : 43.8314756
+            },
+            "southwest" : {
+               "lat" : 37.6460601,
+               "lng" : 43.8314756
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Seranüs, Unnamed Road, 30110 Konak/Hakkâri Merkez/Hakkari, Turkey",
+               "end_location" : {
+                  "lat" : 37.6460601,
+                  "lng" : 43.8314756
+               },
+               "start_address" : "Seranüs, Unnamed Road, 30110 Konak/Hakkâri Merkez/Hakkari, Turkey",
+               "start_location" : {
+                  "lat" : 37.6460601,
+                  "lng" : 43.8314756
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 37.6460601,
+                        "lng" : 43.8314756
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "{vwdFwyojG"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6460601,
+                        "lng" : 43.8314756
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "{vwdFwyojG"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

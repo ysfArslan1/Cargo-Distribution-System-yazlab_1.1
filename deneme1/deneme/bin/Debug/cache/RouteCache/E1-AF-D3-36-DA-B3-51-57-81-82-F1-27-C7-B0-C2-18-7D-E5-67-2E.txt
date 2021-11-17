@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJYeDIa7jHsxQRZvV8NqghNdY",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJYeDIa7jHsxQRZvV8NqghNdY",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.8699597,
+               "lng" : 26.6330903
+            },
+            "southwest" : {
+               "lat" : 40.8699597,
+               "lng" : 26.6330903
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "İspat Cami Mh., Dr. Sadık Ahmet Cd No:6, 22900 Keşan/Edirne, Turkey",
+               "end_location" : {
+                  "lat" : 40.8699597,
+                  "lng" : 26.6330903
+               },
+               "start_address" : "İspat Cami Mh., Dr. Sadık Ahmet Cd No:6, 22900 Keşan/Edirne, Turkey",
+               "start_location" : {
+                  "lat" : 40.8699597,
+                  "lng" : 26.6330903
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.8699597,
+                        "lng" : 26.6330903
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "glmxFywpaD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.8699597,
+                        "lng" : 26.6330903
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "glmxFywpaD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

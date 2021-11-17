@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "15",
+               "short_name" : "15",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sütçü İmam Caddesi",
+               "short_name" : "Sütçü İmam Cd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kurtköy",
+               "short_name" : "Kurtköy",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Pendik",
+               "short_name" : "Pendik",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34912",
+               "short_name" : "34912",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Kurtköy, Sütçü İmam Cd No:15, 34912 Pendik/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.9182385,
+               "lng" : 29.2893652
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.9195874802915,
+                  "lng" : 29.2907141802915
+               },
+               "southwest" : {
+                  "lat" : 40.9168895197085,
+                  "lng" : 29.2880162197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJpzcXU0XayhQR8Qdh-T0wze0",
+         "plus_code" : {
+            "compound_code" : "W79Q+7P Pendik/İstanbul, Turkey",
+            "global_code" : "8GGFW79Q+7P"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

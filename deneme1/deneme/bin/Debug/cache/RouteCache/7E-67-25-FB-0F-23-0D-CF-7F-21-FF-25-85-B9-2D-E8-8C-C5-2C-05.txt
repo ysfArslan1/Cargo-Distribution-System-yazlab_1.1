@@ -1,0 +1,584 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJpSAodzEVyxQRYC_vRftZcrY",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-YKanFjYyhQRX7rfInQYRHk",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.881545,
+               "lng" : 29.978256
+            },
+            "southwest" : {
+               "lat" : 40.63777109999999,
+               "lng" : 29.3792606
+            }
+         },
+         "copyrights" : "Map data ©2021 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "90.6 km",
+                  "value" : 90597
+               },
+               "duration" : {
+                  "text" : "1 hour 21 mins",
+                  "value" : 4864
+               },
+               "end_address" : "Mermerciler Cd. No:15, 34956 Aydınlı - İstanbul Ay Osb/Tuzla/İstanbul, Turkey",
+               "end_location" : {
+                  "lat" : 40.881545,
+                  "lng" : 29.3869055
+               },
+               "start_address" : "Mesruriye, Unnamed Road, 41650 Gölcük/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.63777109999999,
+                  "lng" : 29.7854266
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1.8 km",
+                        "value" : 1760
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 320
+                     },
+                     "end_location" : {
+                        "lat" : 40.6464262,
+                        "lng" : 29.7877509
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e toward \u003cb\u003eŞevketiye Köyü İç Yolu\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "aa`wF}mxtDQk@c@eAc@kAEGSUMKOGKECASIQKMOKQQQYWEEg@o@c@s@KS]cAIc@_@aBGa@CMGQCICGEIIIEEA?ECE@E@GDEDCHCJCLAFCLCVCHCHEDCBA@E@E@E@E@E?C?GCA?CACACCCCCCCCCECIEKISAEGKAIAGAGCEAKAECKAGAK?KAGCI?AEIEEECGAC@E@GBODEBE@E@EAEAECMIo@g@QMIEGCGECAGCKMCEIMCKCMEQCICEIEQKWIIAEAGAG@G@C@AB?F?B?B@BDHDDFLDFBFDJBH?FAFCBEBG@I?MAGAK?EAIACCA?MMEGEICIMe@GSCGCEECCCGAECGCMIEEIIOKGEGAGAICI?S?E@CBQPMPc@t@INOZENALADAL@J?D@BB\\Fl@FZFVFTDJDPHd@FxAJxBA~@?B?n@?p@CPAJEJCDCBIFK@K?OCG?w@COEAAYQIAMGMGCAOIIIKQIOAAEIOMECOIc@GQESIIM"
+                     },
+                     "start_location" : {
+                        "lat" : 40.63777109999999,
+                        "lng" : 29.7854266
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 112
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 40.6473273,
+                        "lng" : 29.7881897
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eŞevketiye Köyü İç Yolu\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ewawFm|xtDGOMYCCKICASG[GA?}@CWIA?"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6464262,
+                        "lng" : 29.7877509
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "26 m",
+                        "value" : 26
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 11
+                     },
+                     "end_location" : {
+                        "lat" : 40.6473359,
+                        "lng" : 29.78849109999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "y|awFe_ytD?I@O@M?EAGCE"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6473273,
+                        "lng" : 29.7881897
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 101
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 40.6470589,
+                        "lng" : 29.789599
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "{|awFaaytDZgARo@BSBK@K?SAe@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6473359,
+                        "lng" : 29.78849109999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.4 km",
+                        "value" : 4448
+                     },
+                     "duration" : {
+                        "text" : "7 mins",
+                        "value" : 403
+                     },
+                     "end_location" : {
+                        "lat" : 40.6682421,
+                        "lng" : 29.8192762
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "c{awF_hytDc@sAi@_BOWKSi@aAGIGEMIICu@CO?KAIAGAGAIGEECCAECIAI?ABm@?QAMAKEQCGMQuAqAk@k@OMYOCAICSGUCg@Co@Is@ISAM?KDa@PqAl@UJK@MBM@K?S@C?I@SBKFGDIHCFEFIN_@n@OVEDGFGDMDI?ICEECCCGCOSgAMa@O]KOIOa@g@IKEKGUASC_@?AASCWAMCMIQMWOOQQ}@y@eAaA]c@GGKQKMO]Uu@Qg@Wq@GOMUQUII[Wc@Yw@_@]OMGm@Si@Q]MYQKIIIOQGMGOCGIYmAiFIYS{@Q{@Gg@C_@?W?o@Hs@PmAD_@BY@k@AY?OC]Ca@Gs@M]KQIKOMYKQAKAMAKAMGOK?AKOGOEMCWCKAKCSAYAc@?Y?U?C?a@?s@?C?IB}@Bq@LaAJk@Jq@Fg@@]C[EWQ]IOEE[[]YWKc@OA?eAUc@Ga@E{AEs@E]C[C[MQMW]m@cAQUIIIIIEGEGCIAG?G@E@EBC@MLGJW^MRSRGDMFI@E@C?C?C?CAC?A?CAC?AACAAACCCCCCCCCCAECEAECGAIAE?AAQAM?M?A?K?_@?a@?S@_@?[A[A]EgACg@?K?O?K?I?G@M?G@GBG@KBGBGT]HKHMDOBIBMBS?K@C?K?O?KAC?GAMCMAGAEEOEOISS_@IKKGQMg@SYOIGCCIIIIGGEKIQACEMGUMc@Os@Sk@AAOSQQOOKKMMMOIMIOKOIOMMQWSOEEQKq@UICu@Qi@O_@Q_@S]YWYIKYk@[e@ACi@u@UWOQYUIGWOo@QkA_@c@QGCUKaA][OKGGGEECG?ACEAGAI?G?S?Q@O?C?CBM@GDKDEHIPQ`@c@BELQV_@HIHGLINEHCN?N@TDHBJ@F?"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6470589,
+                        "lng" : 29.789599
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 246
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 48
+                     },
+                     "end_location" : {
+                        "lat" : 40.6676478,
+                        "lng" : 29.8220134
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "o_fwFoa_uDJy@Fm@Hm@@I`@cAPq@FuAJo@BS@aAHGAg@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6682421,
+                        "lng" : 29.8192762
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.4 km",
+                        "value" : 2449
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 249
+                     },
+                     "end_location" : {
+                        "lat" : 40.6850172,
+                        "lng" : 29.8349433
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHamidiye Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "y{ewFqr_uDAAKASIYQs@o@IK[[KMGMCIEMM]S[OMMKC?OESEU@K@I@e@JWLYTA?[VKDGBE?E?ECICIECGA?CGIOKYIUKOEEEEECCACACAEAE?A?E?E??@G?C@G?I?G?EACAEAC?CCCACACCCCCCACCECICGQWOQMMIGWOcAc@a@MEAKCOAG?GAG?G?C?GAEAE?CAGACACAAAGCCCECCECCACACAEACCGAECEAEAIAGAECGAECGAGCECECCGEAAUKq@K_@GICECECGCEGAAGEACWUOUMOMWGUEUGi@AWAS?WBk@?Q?QAOAKEUKe@Oa@U]_@q@[m@Wm@Sm@]u@KQWa@Y_@_@]q@g@_@]GGSG[G]AQECAMIGEMKOOCCECMEQA_BCc@EKAOEUKSIc@WQOCCSQUa@e@w@k@s@WUEEUMIEa@UYOk@UaA[aAYUEQ@WHQNUPOJK@I?GAGASIe@[}@k@OEKAUEMCKIIMKSK_@IYGQEGMKGACAC?C?OBK@C?UD[?]Ec@CW@]Ac@Gc@Q_@WECWYCCS]MYEMK]Ka@KYWW"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6676478,
+                        "lng" : 29.8220134
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 731
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 94
+                     },
+                     "end_location" : {
+                        "lat" : 40.6913685,
+                        "lng" : 29.83442
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eOkyar Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "khiwFkcbuDIUKOIGOGSIMCYA[Bc@Fo@Dk@?G?e@AYAa@@_@Bk@Hc@FQDS@OAKCs@Ac@EM?O@QDc@Ha@HoAd@a@N[Js@N[H[Le@PQFQHQ@[?YA[E[CSIa@EIA"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6850172,
+                        "lng" : 29.8349433
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.3 km",
+                        "value" : 2327
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 288
+                     },
+                     "end_location" : {
+                        "lat" : 40.7087105,
+                        "lng" : 29.8457768
+                     },
+                     "html_instructions" : "\u003cb\u003eOkyar Cd.\u003c/b\u003e turns slightly \u003cb\u003eright\u003c/b\u003e and becomes \u003cb\u003eİhsaniye Adnan Menderes Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "apjwFc`buDWUCEOQQ[Q_@Ua@GG]c@O[KQEO[m@kAmAEGi@i@k@Ua@AC?K?G?KBYF[Jy@b@WLqAn@WNQJ_Ad@q@Xg@PK@i@Fe@E[I]SQO[YCA_@a@IKqAqAQQ?Aa@e@q@}@e@i@a@[sAoAWSe@]USq@i@w@qAa@o@EIs@kAYa@}@qBAEg@_AMSIK[YEG{@w@s@q@YW[g@KOEIWq@Us@K_@KUSa@QSMOm@i@YUa@Y{D_CyAaAiBy@OAa@EKAUEWGQEuCk@aB_@o@Uy@SgAYc@EI?qC]UE"
+                     },
+                     "start_location" : {
+                        "lat" : 40.6913685,
+                        "lng" : 29.83442
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "10 m",
+                        "value" : 10
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : {
+                        "lat" : 40.7087724,
+                        "lng" : 29.8458641
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eOlgun Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "m|mwFcgduDKO"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7087105,
+                        "lng" : 29.8457768
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "14.2 km",
+                        "value" : 14202
+                     },
+                     "duration" : {
+                        "text" : "12 mins",
+                        "value" : 714
+                     },
+                     "end_location" : {
+                        "lat" : 40.7621188,
+                        "lng" : 29.9665142
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAtatürk Blv.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eD130\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eE881\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow E881\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "y|mwFsgduD|@mAPWf@q@v@gAbAuAT[hBeC\\e@n@kAp@eANYTk@Z}@Lc@J]H[FOJa@VaA^sBFa@?O@O@Q@wA?U?SCoDAgC?_A@_@IeI@wD?W?qBEyBCk@IcEAoAEoEE_HGoGEqG?m@AwCGeEI}EAe@MqDWcGMaDCs@WgFIoBUyEMwCCs@GyAC[MwBGgBKmDEoAMuCIaBW{FOaEOyDOkDk@iMcBu^E{@]{Hg@iLKaDEm@Co@Cs@_@mEYiCKw@U{AGa@Ou@ESk@kC{@kDGSk@sBYaAWcA[yACGGa@AEG]G[UwAa@qCo@aGW{BG{@EWG{@[gDM{AOyAOkAQmAwA{JcAgGIe@WoBGk@OmBGs@EyAEiAAmAA_@CoAIcEKmE?c@GuDG_CKuFIiECgAAeBCgAE{@K_Ac@qCG_@M}@Y_B_A}Fa@_CEWcCqPw@kDQs@[eAM]iAgCu@yAaA{AuBgCc@a@e@e@kCiBQMQMyBuBQK_BwAY]EEMQkAaBiAkBy@oBGOYu@Qq@a@eBScA_@sBoAeLi@qE}AcOe@eEk@eFGc@g@_Dc@mBc@aBMc@KY]}@e@iAc@aA]m@a@w@c@q@{@qA_AkAIK[[]]g@e@g@e@_As@i@]eAo@]QgBu@cBk@w@O]IuB_@qAMoCGwBDuI^_CHqADgEPiCJc@BG?I@eBFaDNwCNI?Q@gGXQ?yEPSF_CH_BBw@Aw@CgAG{AMSCA?w@M{A[}Ai@YIq@Wu@YeAk@GEECMG]SQIWOOI_@W_@U[QcGoDQMMGgEyBaFcC_@SqHsCgFiBsA_@gBa@g@Ma@Ia@G_AOw@MGCECa@QYYS_@O]Kc@WgBQeAAECMIa@ESCIK]KYMWSYWYg@[_@UgAq@gAo@OKOIMIiC{Ai@WGEWKq@SaB[uAWmAQaCa@yB[e@KGA[GEA_AOu@Y"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7087724,
+                        "lng" : 29.8458641
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.4 km",
+                        "value" : 1437
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 76
+                     },
+                     "end_location" : {
+                        "lat" : 40.7747892,
+                        "lng" : 29.9697411
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eKara Yolu Cd.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eD605\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eE881\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "gjxwFuy{uDyE_@OAQAICGC[CYCoAS}@KaAKyAMuAQy@KyHmAy@My@KsF_A{AYiAScB[UGeCe@}@WUC_GsAA?gDw@_B_@aAQ"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7621188,
+                        "lng" : 29.9665142
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 km",
+                        "value" : 920
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 78
+                     },
+                     "end_location" : {
+                        "lat" : 40.78050349999999,
+                        "lng" : 29.9757059
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "myzwF{m|uDIOACKIe@UGC]Ki@QYK[ISGMEEAeAYMCaA]UKAASOEIGEEMCQ?A?Q?MFYRu@H[BKBID[@UC[CUAIIYCMAAAE[_@y@[SMwCuAiAc@a@MkBi@s@]g@g@e@q@MYQc@Wy@IWK[M[IQGS"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7747892,
+                        "lng" : 29.9697411
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "56.8 km",
+                        "value" : 56830
+                     },
+                     "duration" : {
+                        "text" : "36 mins",
+                        "value" : 2135
+                     },
+                     "end_location" : {
+                        "lat" : 40.8658601,
+                        "lng" : 29.3993216
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e at the fork, follow signs for \u003cb\u003eKörfez\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eIstanbul\u003c/b\u003e and merge onto \u003cb\u003eAnadolu Otoyolu\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eO-4\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eE80\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "fork-left",
+                     "polyline" : {
+                        "points" : "c}{wFes}uD[q@[u@k@uA]}@{@}Ay@qAOSWSUS]MYEYASDOFMJMLILGNGRERALCP@B?PBX?@Hd@@DHp@Bd@Af@CZEPI\\ELGNW`@QZINCDW^OTc@r@]p@}@nB]bAsA`E_@rAU`AERGXALA`@EJETCPAHEL?BALCLGVGf@EZCNEZENCTADQlBSjC?HAJAHCxBEzC?nA@tBJxCn@bL`@xGPhE@rA?l@?@Ax@?b@C~AALI|Bc@tGcA`KCXi@`G]tGCdC?n@?^@|A@XDjBJzBXfD^fD`@`Cf@rBBHLj@h@rBr@|BDJbAfCdAzBTh@Rb@l@pAHLN`@p@jBFPHV`@|ANv@\\lBHr@Hf@Dd@BZDdABvABvA?nCC~@KvAC^A@?FGb@?@O~@k@`Dy@fEW|ASjASxACZGl@?BGh@?BALMxBE~A?z@BjBF`AFx@NpADf@Lt@N`AVrAR|@Tv@^fANf@Rd@`C`Er@lABDT^@BhBfDLVV^`@x@j@bAFNx@~AdAvBR^Xv@dAfCr@nBDRDNj@~Ab@|An@rB`AvDJf@ZvAt@hDv@xE`@jC\\tCDXBXDXX|B^tCBn@Dp@l@tGDl@LrA@HZzHXzDDl@JfBDb@?DDl@?@Dn@Df@?DDf@?FLhBB|@Bp@@p@Dz@DhB@N?j@@h@@n@@l@@n@?n@@l@?@?l@?n@?d@A|@?|@Av@IbBCv@WlEe@nEkCfO}@jDOh@iBjHOj@Oh@?@Mh@Oh@Oh@iBjHsAfFEZ]bB_@pDEh@Gx@StEA|D?NTjG@l@?@BZLbBJv@@H@FFr@H`@XbBJl@P|@l@`D^xAZdAx@rCv@|BtAjDb@`ADJFJTh@vCvF|BrDXb@V`@V`@@@lAhBp@x@rBbCbBlBfAlALJJLpAhANLTRzCbCtAdA^V\\V^V@Bx@l@^V`DbC|ApAJHHHpArAHLNPNPhAtA`@h@|@zA@BTd@N\\BFt@fBfAdDf@nBH^Jj@@@F\\RbAJ~@LrAFv@Dn@L|BBjB@P?p@?Z?XAT?@?n@APErA?JCf@E^Ep@Eh@Eb@AHMfAEVQhAY|A[dAYfAy@nDQl@y@rCk@hBiAjEOh@?@s@fDa@bCObAOxACVGdAGzA?JAnA?bA?~@@|ABnABbB@jFA~FAhBChBCvBKnDi@pJQrCUzDA@Cj@WlEUfDMbEKjDCfDA~E?R@hA?@DbCNdE@V@TN~BR~Cf@pEfBhOZfCR`CTxC`@pFTpEZzIHnEFrG@vBAbAKzHGxDKnDOdD_@xFyAdP]nC[xBE^G`@Mx@In@?ZEXMfAk@tEM`A_@`D{@lHEb@Gl@Il@MnAa@nFWjDWbEQnC?RM`DCh@Cx@CZ?PA\\ANEtAMdFAT?VAtEAhA?jAAr@AnKBfK@xE?dD?lFIjEC|AMzCQvEo@rJCTCRC\\YtCKnAET?FCRCNu@zFERCT[~BWnBWjBgAhIOv@?BG`@u@~EcAzGQnA{@hFg@fD?@Gd@Gf@E^_@hC[pB_BxKi@~DKl@{@|FAJa@hCEZE\\Ij@?@YxBe@vCs@dFeAhH]`CU`BU~A{@`G_@hCc@tCk@|Dy@dG_@nCYbCSnBOhBMjBIfBK`CGpB?RARAdA?zC@xABpBDhBJjCJ`CP~BFf@Dd@Dh@X|Ch@dF`@xDRpBj@hFHz@Dh@Dl@@T@T@RHpAF|AHvBBz@BpB@bCClFE~AMnDQfCK|AUhCUbCGb@Eb@It@Kt@qAjJcAdHc@nDUjBUfCK|BQxDGfECdDAbFNdPBlC@l@HjCHnIB`C@nCKvGOfEs@xJGr@a@nFc@rGOjDEl@KzBKvCE`ACpAA@G~CC~A?Z?f@ClE@pC@fA@vABfA@z@@f@FjCJpCFrBJzBNhC@R?@Dl@?@Fp@PrCP`CLrBPjCNlBHnAFfAJzBH|A?B?HBn@Bn@Bp@F`F?vBApAIzCInCU`EUjDo@vGy@fJ?FUlDI`BEr@?@AVATG|A?DAh@ElACbC?hA?@?hBBzB?BDpADnAJhB@RDb@FdAJfAL|AHt@Df@PxALjAPtABNNfAl@fEBLNlABTL`ATnC@PDx@DtA@dA?x@Cz@ExAAZStFEpAApB?dBBhA?LHxATzDDn@Dp@HhCBn@Bl@B`@FvFH~CFlANxAR|Ah@rDPdBTfCPpC@NB\\LfC@DDl@PnCr@jMZbFFvADvA@^@hAAxAIbCEp@QvBQrACJUjAU`A[hAY~@qArCkApBONuAbBs@v@sCnCaCnBcCzBEBkCfCsArA}A~AyA~AiAtAW\\Y`@cBzB[b@mBvCkAjBqEfHYd@OXEHm@hAi@bAAD_AtBe@pAg@lBe@xBCLUhBUhCEtA?vBAR@xBBf@Hx@Fr@Dl@?@NrA@FJj@BRFXLj@@Fj@vBp@rBJT^z@`@r@T`@j@~@JLrBtC@@~@`A`DrC|AjAtAdADDJHfDpC`@^b@`@p@r@hA~Az@vAhAbCFL`@~@l@pAl@bBl@`B|@rCHRFRNf@d@~A\\lAb@zA\\nA\\rAb@zAn@bCRr@dAvDn@~Bp@fCBJBLDHX`AT|@Vz@Pf@Pf@p@rBr@vBP^`AbCZr@N\\p@vAx@fBh@dARb@BHTh@JTRd@LXz@tBTj@HTJXFNBJd@|APl@Tt@t@vCbBdHbA|D~@dD|AlEt@dBLXbClFb@|@LVLVXh@Xh@FPFRLVNXJXJXl@tAn@bBv@zB`@`BBFJ`@Lh@?@ZvA?DZvBb@vDPhCFpADhB@|@?F?f@?r@CpCMtCMbBMpA_@tCCLGVEVIp@w@rD[pA_BrGGZWbAkA~EW~@g@pBc@jBe@zAQv@e@fB]tAQt@Qt@]xA_@vAU~@Qn@o@|B_@~A]nBSfAKv@Q`BO|AKvBIpCEvAChAIlBE|AKnBQjCOvA_@tCGb@k@~C_@~AMp@sAbEgAfDs@vBo@vBCFWv@YdAABe@zB[fBO~@OxAUnCGrAEv@C|A?N?@@l@?@?|@@\\@`A?BBn@FtANpBPnBTjBL|@DXTzAHf@FZD\\V|BPbBDt@HhAHhABvABtA?`AG~BG|@E\\OxAGl@SbAUjAU|@IXSr@]|@]x@GJSb@a@v@QZ_@j@c@l@e@n@?@m@p@e@^m@j@A@[R_@VGB_Af@_Bv@mAd@KBq@Rw@TcAVc@JkAVw@Rm@NeAXWF_@Nw@Z_Ab@y@f@_@Tc@Ze@\\m@f@y@x@o@r@q@z@i@v@o@bAEFmAxB}CrFmAlBe@t@w@hAc@n@gAxAi@n@e@h@{@`Ao@n@[XUTCDg@b@QL[Xg@b@cBnAcBfAe@Zo@ZMF]REBoClAwDhBeAd@]PkCtAsCzAqAv@y@h@eBvA{@v@?@q@n@w@z@?@Y^]b@GJIJQVMXkAjBi@`As@zA_@x@e@jAw@dCOf@U~@m@hCS~@e@|Bq@xDe@dCOv@AFo@dDUjAOn@CH[jAA@Mf@Mj@Uz@[dAc@zAe@vA]`A[z@u@dB[p@_BfDs@~Aq@zAuAvCo@tA}@rBk@zAWp@Of@M`@Ut@YbAK`@UhAGVKf@QfAGVGh@MhAK`ACTCPIdAGdACn@IzBAr@?`A?fA@^@fADdADdADdABPDr@Df@?BBVNfBTlCZ`EDj@HhBDfB@dA?hAAbACbAKhCGdAEf@I|@SfBGd@Ip@]jCGf@]vBeCzO]vBcAxGM`Au@nEgBdLEZKj@Kl@Ij@Kl@aCdOgApHe@pC?@Kh@eAvFm@nCgA`FeAvD[dAOh@CF{B~GyAbE{ArDcDrHm@lAk@hA?@Q\\CD}BdEmChEaCtDgBdC}DbGkFbHcB~BeD~DY^EDUX]b@_GjHIHqBbCaCtCSTGFY\\oBzB{@`AUX}E~FUZWXeArAw@`AkC~CoEjG{A|B]h@wBpDyAjCe@|@EHOXEHUd@MTaApBg@dAi@fAmApCwBlFYv@ABSn@]~@e@rAABc@nAOb@Ob@]dAk@lBQl@Oh@Qh@iAvDYx@_AjCUp@]~@Ob@e@nAk@zA{@xBoAbDwAbDkAbCu@dAyAtCcCtDgAzA}AhBs@x@wAvAcAbAsAfAu@j@{AdAcAp@MHaAj@OH_@RCB_A^eBp@{An@s@TuBl@E?aDp@aG|@iBViARA?cARcBXGBwDx@qCt@yBp@]NC@i@Ry@\\u@XgBx@gAh@aAd@A@iClAYRcCvAkCbBKFWNaC~AmA|@OJeAv@KJkFhEuDfDkDnDyAxA{CvC{EpE{AnAiCtBsB`BiBpAkC`Bs@b@_GxD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.78050349999999,
+                        "lng" : 29.9757059
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1114
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 67
+                     },
+                     "end_location" : {
+                        "lat" : 40.8692768,
+                        "lng" : 29.3931422
+                     },
+                     "html_instructions" : "Take the exit toward \u003cb\u003eŞekerpınar Çayırova Bağlantısı\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "srlxFw`mrDS?OB]R{@h@cB|@aAp@IBy@^SHq@Z_ATy@Jc@?_@Ec@QA?[Oq@c@wA{@}@EQ?O@I@G@GBIBIDIDGDABKFKLGHGHEJINENELCPER?HAD?BAJAP?R@J?N@T@JBPD\\Jf@Tv@Rh@x@nBx@pBpDdITn@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.8658601,
+                        "lng" : 29.3993216
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 km",
+                        "value" : 824
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 51
+                     },
+                     "end_location" : {
+                        "lat" : 40.86476340000001,
+                        "lng" : 29.3853808
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eŞekerpınar Çayırova Bağlantısı\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "_hmxFczkrDf@lATf@Rf@Rf@Zv@lApCpAnCt@~AXl@NXbAvB\\t@dBbDxDbHbCpE"
+                     },
+                     "start_location" : {
+                        "lat" : 40.8692768,
+                        "lng" : 29.3931422
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 346
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 29
+                     },
+                     "end_location" : {
+                        "lat" : 40.8642963,
+                        "lng" : 29.3816946
+                     },
+                     "html_instructions" : "Take the exit toward \u003cb\u003eTuzla Org. San. Bölgeleri\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eKurtköy\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePendik\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "wklxFsijrD@T@FDLPd@DPDTD\\@h@AX?BE^GVIb@GXEZC\\?ZBLBN@@DR@FDHFL@BBBLNVXJJFHFJBD@D?BBHAF?H?JCPIXIh@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.86476340000001,
+                        "lng" : 29.3853808
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 233
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : {
+                        "lat" : 40.86523649999999,
+                        "lng" : 29.3792289
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eMuhsin Yazıcıoğlu Cd.\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "{hlxFqrirDO`@ELE^Kn@Od@YdAk@fCo@zAMZ"
+                     },
+                     "start_location" : {
+                        "lat" : 40.8642963,
+                        "lng" : 29.3816946
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 219
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 40.8667656,
+                        "lng" : 29.3806932
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eÖzgürlük Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "wnlxFecirDQCM?IAEAICKEA?OGKISEECKg@SY_BwBs@{@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.86523649999999,
+                        "lng" : 29.3792289
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 km",
+                        "value" : 806
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : {
+                        "lat" : 40.873066,
+                        "lng" : 29.3846335
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eÖzgürlük Cd.\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : {
+                        "points" : "ixlxFilirDk@_Ai@i@EEo@[i@Sk@IoBQeAC[?I?Y@I?e@?a@Cm@Is@Qa@OGCWQ{@k@m@k@u@cAEIMSUa@U]Q[OYS[SU]W_@WQK{@i@_@SYQYOSQ"
+                     },
+                     "start_location" : {
+                        "lat" : 40.8667656,
+                        "lng" : 29.3806932
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1107
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 87
+                     },
+                     "end_location" : {
+                        "lat" : 40.8800331,
+                        "lng" : 29.3832761
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eÜniversite Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "u_nxF}djrD{@m@q@a@u@a@o@a@u@c@]S_@[UQYYQUU]Se@CEMWYg@M]AEK]I_@KWAIM[ISMWMOMMOKWOMKOGQEOCKASAC?A?C?A@A?s@FKBIDIDIDGDEDCDGFCFCDERg@^{@tBO`@Un@}@hCIVYt@gA`DADIRIRKVKPMTS\\GJKNe@l@EFy@lA"
+                     },
+                     "start_location" : {
+                        "lat" : 40.873066,
+                        "lng" : 29.3846335
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 349
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 59
+                     },
+                     "end_location" : {
+                        "lat" : 40.881545,
+                        "lng" : 29.3869055
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMermerciler Cd.\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ekoxFo|irDS_@IUGSgGkS"
+                     },
+                     "start_location" : {
+                        "lat" : 40.8800331,
+                        "lng" : 29.3832761
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "aa`wF}mxtD}CuFuBiByEsLiAbCkAm@o@wC}Cy@cCsCeAEZx@Ev@aAKoBsCyAc@mBzCjAdNQtEeC?cDeCyB}AmCi@p@}DeBqHsEcCKaCkE{DcF_@qEtAqD~CcDwIwG{JmCmFwGwCqCoIq@uIR}GsBmCqAgAQqDTyGCeGgFuBqHsAwB_CmAbAkBp@u@aNlAgEs@aEaEwE}EuHsFsBwDcFeKaFhAeEdB}A~@Jf@eBxAiKqBkCkBwCgCEoBdAm@m@aBuAoAa@aG}CuBqCmE{BwAkK_EcIaF}C}HkBmEaFqGkCmCt@yDcBsAcCaAIqF]uB}CsBsCqFH{Lj@qHbCeDIgIaKuDu@{IhEcCTgBgAeFyFyIwIkFsJ}IsM{O}ImLkCgG}@l@{BbLiPxBsGdAwJu@mfAeDekAgJwvBuB_XsEmRqGcg@wFy`@u@gUw@uc@iDqWiJuc@gNkOoL}MmBgFeDcUqIuo@eF_LoIcJeP{Fse@|@qNn@wYz@eMwBaTmLge@_ReGcBiBeIcC}DqKkGsQiDyUaDgs@{L{R_GoC}Ad@kDK_DqJyEmFaDaAoCmDyIeGaG_BlBIfJaDnFuFfQeAdHs@nLlBvm@u@nSqCff@zCpYdHzR|DlLhA`O]tJuDnTc@bGp@rPvGbR`GpKzIzRtFlSvEpZhCt]`BdYTxVg@`L_Gl\\aHlXwCxOc@vNv@lOxChPjHfS`NxTpLdMlXxTdF|HdEhNjA|VeFd\\eHdZe@rN?ha@qCtg@Wz]bFvj@pCvs@a@hVgDta@uAbL{Dv\\wCvl@Ahl@aBzl@_H|i@_Nv~@uMl~@uFrd@_@~TbGnw@h@tO_Btb@sF`b@m@du@XjSmAh^aCfb@Rtm@fDrj@PjQ_Enm@]l\\bEdb@fA|Og@jWlDjp@fE|w@_CdRgEtI_LzKcSnSoQlXsGlQq@dSx@xHbE~LbOhPpM|LvJtUdE|NnNnf@lM`Z~FtTzMt^|IbVzBtUk@~RwNpo@mEjQ{DdWqArYqIn]yDdPu@rOhCl[jAzSmBpPiDhImFjG_XdJiJnFgNzSgShVmg@jYeFvFyGlMgLnh@mTdj@gGhX?n\\zApUg@lQePrfA{Jjl@oNhd@_P`[}\\he@{b@jh@eWp_@sEhJkNf`@_HlSoRr`@{QtQmJzEwn@rNk^nRwYhW{^hZmPnJ_EzAaDKqGqBcAf@eArEdNh_@bYll@MzJ~A~C_A`FeCnIw@TsAg@_IaKuIq@gHqBeEcGmF}DuImF}C_EuEaI{D\\cJ~TyBnDmAl@Qi@gGkS"
+         },
+         "summary" : "Anadolu Otoyolu/O-4/E80",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

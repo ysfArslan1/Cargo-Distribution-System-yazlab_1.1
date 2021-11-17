@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "299",
+               "short_name" : "299",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "İzmit Caddesi",
+               "short_name" : "İzmit Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rahmiye",
+               "short_name" : "Rahmiye",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Kartepe",
+               "short_name" : "Kartepe",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41285",
+               "short_name" : "41285",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Rahmiye, İzmit Cd. No:299, 41285 Kartepe/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7232882,
+               "lng" : 30.0076419
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7246371802915,
+                  "lng" : 30.0089908802915
+               },
+               "southwest" : {
+                  "lat" : 40.7219392197085,
+                  "lng" : 30.0062929197085
+               }
+            }
+         },
+         "place_id" : "ChIJjbh9bu1ayxQRvDcujgL8kps",
+         "plus_code" : {
+            "compound_code" : "P2F5+83 Kartepe/Kocaeli, Turkey",
+            "global_code" : "8GGGP2F5+83"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

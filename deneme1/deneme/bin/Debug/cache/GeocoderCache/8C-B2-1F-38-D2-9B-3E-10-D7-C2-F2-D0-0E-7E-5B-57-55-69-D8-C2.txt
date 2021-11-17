@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "P36M+P8",
+               "short_name" : "P36M+P8",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Kartepe",
+               "short_name" : "Kartepe",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "P36M+P8 Kartepe/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.711875,
+                  "lng" : 30.083375
+               },
+               "southwest" : {
+                  "lat" : 40.71174999999999,
+                  "lng" : 30.08325
+               }
+            },
+            "location" : {
+               "lat" : 40.7118125,
+               "lng" : 30.0833125
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7131614802915,
+                  "lng" : 30.0846614802915
+               },
+               "southwest" : {
+                  "lat" : 40.7104635197085,
+                  "lng" : 30.0819635197085
+               }
+            }
+         },
+         "place_id" : "GhIJJzEIrBxbREARFtnO91MVPkA",
+         "plus_code" : {
+            "compound_code" : "P36M+P8 Kartepe/Kocaeli, Turkey",
+            "global_code" : "8GGGP36M+P8"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

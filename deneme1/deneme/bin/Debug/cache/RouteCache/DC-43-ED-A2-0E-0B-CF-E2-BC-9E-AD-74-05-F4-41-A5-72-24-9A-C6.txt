@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJi2t828wsyxQRSDihBsP5wSQ",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJi2t828wsyxQRSDihBsP5wSQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.02336409999999,
+               "lng" : 29.5494793
+            },
+            "southwest" : {
+               "lat" : 41.02336409999999,
+               "lng" : 29.5494793
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Mudarlı, Unnamed Road, 41400 Gebze/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 41.02336409999999,
+                  "lng" : 29.5494793
+               },
+               "start_address" : "Mudarlı, Unnamed Road, 41400 Gebze/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 41.02336409999999,
+                  "lng" : 29.5494793
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.02336409999999,
+                        "lng" : 29.5494793
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "_kkyFgkjsD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.02336409999999,
+                        "lng" : 29.5494793
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "_kkyFgkjsD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

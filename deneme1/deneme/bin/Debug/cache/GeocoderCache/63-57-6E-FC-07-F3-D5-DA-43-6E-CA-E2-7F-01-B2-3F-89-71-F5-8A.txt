@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "V329+W7",
+               "short_name" : "V329+W7",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "İzmit",
+               "short_name" : "İzmit",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "V329+W7 İzmit/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.852375,
+                  "lng" : 30.06825
+               },
+               "southwest" : {
+                  "lat" : 40.85225,
+                  "lng" : 30.068125
+               }
+            },
+            "location" : {
+               "lat" : 40.8523125,
+               "lng" : 30.0681875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.8536614802915,
+                  "lng" : 30.06953648029149
+               },
+               "southwest" : {
+                  "lat" : 40.8509635197085,
+                  "lng" : 30.0668385197085
+               }
+            }
+         },
+         "place_id" : "GhIJarx0kxhtREAR-X5qvHQRPkA",
+         "plus_code" : {
+            "compound_code" : "V329+W7 İzmit/Kocaeli, Turkey",
+            "global_code" : "8GGGV329+W7"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

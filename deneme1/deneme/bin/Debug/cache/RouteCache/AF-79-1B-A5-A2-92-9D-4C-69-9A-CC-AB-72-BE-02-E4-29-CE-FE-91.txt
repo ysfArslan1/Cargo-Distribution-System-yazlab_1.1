@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJwys1OrKktBQRPcWVJ9DH8W8",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJwys1OrKktBQRPcWVJ9DH8W8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.3983758,
+               "lng" : 27.3567279
+            },
+            "southwest" : {
+               "lat" : 41.3983758,
+               "lng" : 27.3567279
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Kurtuluş, Mithat Paşa Sk. No:23, 39750 Lüleburgaz/Kırklareli, Turkey",
+               "end_location" : {
+                  "lat" : 41.3983758,
+                  "lng" : 27.3567279
+               },
+               "start_address" : "Kurtuluş, Mithat Paşa Sk. No:23, 39750 Lüleburgaz/Kırklareli, Turkey",
+               "start_location" : {
+                  "lat" : 41.3983758,
+                  "lng" : 27.3567279
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.3983758,
+                        "lng" : 27.3567279
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eMithat Paşa Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "{rt{Fqb~eD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.3983758,
+                        "lng" : 27.3567279
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "{rt{Fqb~eD"
+         },
+         "summary" : "Mithat Paşa Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

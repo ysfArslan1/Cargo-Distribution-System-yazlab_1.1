@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJsyH18nAZnkARqkAvS5SwceQ",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJsyH18nAZnkARqkAvS5SwceQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.0090859,
+               "lng" : 29.9594215
+            },
+            "southwest" : {
+               "lat" : 41.0090859,
+               "lng" : 29.9594215
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Çalca, Unnamed Road, 41600 Kandıra/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 41.0090859,
+                  "lng" : 29.9594215
+               },
+               "start_address" : "Çalca, Unnamed Road, 41600 Kandıra/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 41.0090859,
+                  "lng" : 29.9594215
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.0090859,
+                        "lng" : 29.9594215
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "yqhyFkmzuD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.0090859,
+                        "lng" : 29.9594215
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yqhyFkmzuD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

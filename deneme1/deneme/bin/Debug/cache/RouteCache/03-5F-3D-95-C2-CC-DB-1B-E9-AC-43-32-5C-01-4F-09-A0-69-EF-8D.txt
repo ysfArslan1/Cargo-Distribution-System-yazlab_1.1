@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJaYllHAQ_nUAR_KDBq_l_9BU",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJaYllHAQ_nUAR_KDBq_l_9BU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.746578,
+               "lng" : 31.6095293
+            },
+            "southwest" : {
+               "lat" : 40.746578,
+               "lng" : 31.6095293
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Sağlık, Şenevler Sk. No:14, 14300 Bolu Merkez/Bolu, Turkey",
+               "end_location" : {
+                  "lat" : 40.746578,
+                  "lng" : 31.6095293
+               },
+               "start_address" : "Sağlık, Şenevler Sk. No:14, 14300 Bolu Merkez/Bolu, Turkey",
+               "start_location" : {
+                  "lat" : 40.746578,
+                  "lng" : 31.6095293
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.746578,
+                        "lng" : 31.6095293
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "ciuwFqv|_E"
+                     },
+                     "start_location" : {
+                        "lat" : 40.746578,
+                        "lng" : 31.6095293
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ciuwFqv|_E"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

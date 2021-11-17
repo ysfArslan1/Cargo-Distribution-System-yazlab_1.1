@@ -1,0 +1,943 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Threading;
+
+namespace deneme
+{
+    static class Program
+    {
+        
+        static void Main()
+        {
+            //GUI1 ekraninin baslangic  calistirilir
+            Application.EnableVisualStyles();
+            GUI1 ekran = new GUI1();
+            ekran.Left = 675;
+            ekran.Top = 0;
+            Application.Run(ekran);
+         
+        }
+     
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace deneme
+{
+    class Users // firebase kullanici bilgileri icin class
+    {
+        public string Id { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        
+    }
+
+   
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace deneme
+{
+    class Kargo//firebase Kargo bilgileri icin class
+    {
+        public string kargoId { get; set; }
+        public string userId { get; set; }
+        public string Adres { get; set; }
+        public string Durum { get; set; }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+namespace deneme
+{
+    class FirebaseConnection//baglanti olusturma
+    {
+
+        public IFirebaseConfig config = new FirebaseConfig
+        {
+
+            AuthSecret = "yKl7zFGq4Lp6DvjftJY6ixQU3DYajCcRG8edVN5y",
+            BasePath = "https://yazlab-34e31-default-rtdb.firebaseio.com/"
+        };
+        public IFirebaseClient client;
+        public FirebaseResponse response;
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace deneme
+{
+    class CounterClass//firebase sayici icin kullanilan class
+    {
+        public string cnt { get; set; }
+        public string kargo_cnt { get; set; }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace deneme
+{
+    class AppConfig//firebase sifre
+    {
+        public static string Key { get; } = "AIzaSyBUciXPNxo42m0OFU9rLFaIxI6aicvJhYs";
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Windows.Forms;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using GMap.NET;
+using GMap.NET.MapProviders;
+using GMap.NET.WindowsForms;
+using GMap.NET.WindowsForms.Markers;
+using System.Threading;
+namespace deneme
+{
+    public partial class GUI1 : Form
+    {
+        String adres_x = "", adres_y = "", adres1_x = "", adres1_y = "";
+        FirebaseConnection con = new FirebaseConnection();
+        private static List<PointLatLng> noktalar;
+        public delegate void Messenger();
+        public static Messenger mesafe_cagir;
+        public static Messenger durdur;
+        DataTable dt = new DataTable();//Kargo bilgilerinin gosterilmesi icin table olusturulur
+        IFirebaseClient client;
+        public string Id;
+     
+        public GUI1()
+        {
+            InitializeComponent();
+            Control.CheckForIllegalCrossThreadCalls = false;
+            noktalar = new List<PointLatLng>();
+            ekran_durumu(0);
+        }
+        public static void GUI2()//GUI2 ekranı olusturma ve delegate olarak cagrılacak fonksiyonlar belirlenir
+        {
+            GUI2 form2 = new GUI2();
+            mesafe_cagir += new Messenger(form2.mesafe_hesapla);//GUI2 deki mesafe_hesapla fonksiyonunu cagırmak icin olusturulmus delegate
+            durdur += new Messenger(form2.bekle);//GUI2 deki bekle fonksiyonunu cagırmak icin olusturulmus delegate
+            Application.Run(form2);
+        }
+
+        private async void Form1_Load(object sender, EventArgs e)
+        {
+            Thread mainThread = Thread.CurrentThread;
+            Thread Thread2 = new Thread(GUI2);Thread2.Start();//GUI2 ekranı thread olarak calismaya baslar
+            Control.CheckForIllegalCrossThreadCalls = false;
+            GMapProviders.GoogleMap.ApiKey = AppConfig.Key;
+            GMaps.Instance.Mode = AccessMode.ServerAndCache;
+            map.CacheLocation = @"cache";
+            map.MinZoom = 5;map.MaxZoom = 100;map.Zoom = 10;
+            map.DragButton = MouseButtons.Left;
+            map.MapProvider = GMapProviders.GoogleMap;map.ShowCenter = false;
+            map.SetPositionByKeywords("Kocaeli, Turkey");
+            client = new FireSharp.FirebaseClient(con.config);
+            dt.Columns.Add("kargoId");dt.Columns.Add("Durum");dt.Columns.Add("Adres");
+            dataGridView1.DataSource = dt; 
+        }
+        private void btn_search_Click(object sender, EventArgs e)//Kargo gonderilecek adresin aranmasında kullanılır
+        {
+            if (!txt_search.Text.Trim().Equals(""))
+            {
+                GeoCoderStatusCode statusCode;
+                var pointLatLng = GoogleMapProvider.Instance.GetPoint(txt_search.Text.Trim(), out statusCode);
+                if (statusCode == GeoCoderStatusCode.OK)
+                {
+                    var pt = pointLatLng ?? default(PointLatLng);
+                    adres_x = pointLatLng?.Lat.ToString();
+                    adres_y = pointLatLng?.Lng.ToString();
+                    marker_ve_konum(pt);
+                }
+                else{MessageBox.Show("Someting gone wrong. returning status code : " + statusCode);}
+            }
+            else{MessageBox.Show("İnvalid data load");  }
+        }
+        private void map_MouseClick(object sender, MouseEventArgs e)//Mouse ile adres seciminde kullanilir
+        { 
+            if (chkMouseClick.Checked == true && e.Button == MouseButtons.Left)
+            {
+                var nokta = map.FromLocalToLatLng(e.X, e.Y);
+                double lat = nokta.Lat;double lng = nokta.Lng;
+                harita_konumla(nokta); marker_ekle(nokta);
+                var addresses = adres_al(nokta);
+                if (addresses != null){txt_konum.Text =addresses[0];}
+                else{txt_konum.Text = "Unable to load adress";}
+            }
+           
+        }
+        private void harita_konumla(PointLatLng point)//Haritanin konumlanmasinda kullanilir
+        {
+            map.Position = point;
+        }                                                       
+        private void marker_ekle(PointLatLng pointToAdd, GMarkerGoogleType markerType = GMarkerGoogleType.arrow)
+        {//Markerlarin konulmasinda kullanilir
+
+            var isaretler = new GMapOverlay("markers");
+            var isaret = new GMarkerGoogle(pointToAdd, markerType);
+            isaretler.Markers.Add(isaret);
+            map.Overlays.Add(isaretler);
+        }
+        private List<string> adres_al(PointLatLng point)
+        {
+            List<Placemark> placemarks = null;
+            var statusCode = GMapProviders.GoogleMap.GetPlacemarks(point, out placemarks);
+            if (statusCode == GeoCoderStatusCode.OK && placemarks != null)
+            {
+                List<string> adresler = new List<string>();
+                foreach (var placemark in placemarks) 
+                {
+                    adresler.Add(placemark.Address);
+                }  
+                return adresler;
+            }
+            return null;
+        }
+        private void marker_ve_konum(PointLatLng point)//Haritayi konumlandir ve Marker ekle
+        {
+            harita_konumla(point);
+            marker_ekle(point);
+        }
+        private async void button1_Click_1(object sender, EventArgs e)//Kargo eklemek icin kullanilir
+        {
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass alinan = cevap.ResultAs<CounterClass>();
+            string adres;
+
+            if (chkMouseClick.Checked == true)
+            {
+                adres = txt_konum.Text;
+            }
+            else
+            {
+                adres =txt_search.Text;
+            }
+            client = new FireSharp.FirebaseClient(con.config);
+            Kargo kargo = new Kargo()
+            {
+                kargoId = (Convert.ToInt32(alinan.kargo_cnt) + 1).ToString(),
+                userId = Id,
+                Adres = adres,
+                Durum = ""
+            };
+            var setter = client.Set("Kargo/" + kargo.kargoId, kargo);
+            var nesne = new CounterClass
+            {
+                kargo_cnt = kargo.kargoId
+            };
+            SetResponse cevap1 = await client.SetAsync("kargoCounter", nesne);
+            Console.WriteLine("kargo");
+            durdur();  //GUI2 deki Bekle fonksiyonu cagirilir
+
+        }
+        private async void listele_Click(object sender, EventArgs e)//Kargo bilgilerini tabloda listelemek icin kullanilir
+        {
+            dt.Rows.Clear();
+            int i = 0;
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass nesne = cevap.ResultAs<CounterClass>();
+            int kargo_cnt = Convert.ToInt32(nesne.kargo_cnt);
+            while (true)
+            {
+                if (i == kargo_cnt){break;}i++;
+                try
+                {
+                    FirebaseResponse cevap1 = await client.GetAsync("Kargo/" + i);
+                    Kargo nesne1 = cevap1.ResultAs<Kargo>();
+                    DataRow row = dt.NewRow();
+                    row["kargoId"] = nesne1.kargoId;
+                    row["Durum"] = nesne1.Durum;
+                    row["Adres"] = nesne1.Adres;
+                    if (nesne1.Adres != "")
+                    {if (Id== nesne1.userId)
+                        {dt.Rows.Add(row);
+                        }}}catch{}
+
+
+            }
+        }
+        private async void kargo_kaldir_Click(object sender, EventArgs e)//Kargo isteginin silinmesinde kullanilir
+        {
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass alinan = cevap.ResultAs<CounterClass>();
+            client = new FireSharp.FirebaseClient(con.config);
+            Kargo kargo = new Kargo()
+            {
+                kargoId = (Convert.ToInt32(alinan.kargo_cnt)).ToString(),
+                userId = Id,Adres = "",Durum = ""
+            };
+            var setter = client.Update("Kargo/" + kargo.kargoId, kargo);
+        }
+        private  void ekran_durumu(int durum)//GUI1 ekraninda bulunan araclarin gorunurlugunu ayarlamakta kullanilir
+        {
+            
+            if (durum == 1){
+                yenisifre_txt.Visible = false; yenisifre_lbl.Visible = false;
+                sil_btn.Visible = true; durum_sil_btn.Visible = true;
+                delegate_btn.Visible = true; geri.Visible = true;
+                chkMouseClick.Visible = true;txt_search.Visible = true;
+                btn_search.Visible = true;txt_konum.Visible = true;
+                button1.Visible = true;listele.Visible = true;
+                dataGridView1.Visible = true; map.Visible = true;
+                kargo_kaldir.Visible = true;sifre_lbl.Visible = false;
+                kul_lbl.Visible = false;kul_txt.Visible = false;
+                sifre_txt.Visible = false;giris_btn.Visible = false;
+                sifre_degistir.Visible = false;kayit_ol_btn.Visible = false;
+                kkul_txt.Visible = false;ksifre_txt.Visible = false;
+                kayit_btn.Visible = false;sifre_degisti.Visible = false; }
+            if (durum == 0)
+            {
+                yenisifre_txt.Visible = false;yenisifre_lbl.Visible = false;
+                sil_btn.Visible = false; durum_sil_btn.Visible = false;
+                 delegate_btn.Visible = false; geri.Visible = false;
+                chkMouseClick.Visible = false;txt_search.Visible = false;
+                btn_search.Visible = false;txt_konum.Visible = false;
+                button1.Visible = false;listele.Visible = false;
+                dataGridView1.Visible = false;map.Visible = false;
+                kargo_kaldir.Visible = false; sifre_lbl.Visible = true;
+                kul_lbl.Visible = true; kul_txt.Visible = true;
+                sifre_txt.Visible = true;giris_btn.Visible = true;
+                sifre_degistir.Visible = true;kayit_ol_btn.Visible = true;
+                kkul_txt.Visible = false;ksifre_txt.Visible = false;
+                kayit_btn.Visible = false; sifre_degisti.Visible = false;}
+        }
+
+        private async void sifre_degisti_Click(object sender, EventArgs e)//Kullanici sifresini degistirmek icin kullanilir
+        {
+            try
+            {
+                if (kkul_txt.Text != null && ksifre_txt.Text != null) {
+                    con.client = new FireSharp.FirebaseClient(con.config);
+                    con.response = await con.client.GetAsync("Users/" + kkul_txt.Text);
+                    Users kullanici = con.response.ResultAs<Users>();
+                    if (kkul_txt.Text == kullanici.Username && ksifre_txt.Text==kullanici.Password)
+                    {
+                        Users kullanici1 = new Users(){Id = kullanici.Id,Password = yenisifre_txt.Text, Username = kkul_txt.Text,};
+                        var setter = client.Update("Users/" + kkul_txt.Text, kullanici1); }
+                    else {MessageBox.Show("Kullanıcı adı veya şifre yanlış");}  }
+                else{MessageBox.Show("Bilgilerinizi dogru giriniz");}
+            }
+            catch{ MessageBox.Show("Bilgilerinizi dogru giriniz"); }
+            kul_txt.Visible = true;sifre_txt.Visible = true;
+            giris_btn.Visible = true;sifre_degistir.Visible = true;
+            kayit_ol_btn.Visible = true;kkul_txt.Visible = false;
+            ksifre_txt.Visible = false;kayit_btn.Visible = false;
+            sifre_degisti.Visible = false;
+            yenisifre_txt.Visible = false; yenisifre_lbl.Visible = false;
+
+        }
+
+        private async void giris_btn_Click(object sender, EventArgs e)//Kullanici girisi icin kullanilir
+        {
+            try
+            {
+                if (kul_txt.Text != null && sifre_txt.Text != null)
+                {
+                    con.client = new FireSharp.FirebaseClient(con.config);
+                    con.response = await con.client.GetAsync("Users/" + kul_txt.Text);
+                    Users kullanici = con.response.ResultAs<Users>();
+
+                    if (kul_txt.Text == kullanici.Username && sifre_txt.Text == kullanici.Password)
+                    {Id = kullanici.Id ;ekran_durumu(1);}
+                    else {MessageBox.Show("Kullanıcı adı veya şifre yanlış"); }
+                }
+                else {MessageBox.Show("Bilgilerinizi dogru giriniz");} }
+            catch (Exception ex) {MessageBox.Show(ex.ToString());  }
+        }
+
+        private async void kayit_btn_Click(object sender, EventArgs e)//Kullanici kayiti icin kullanilir
+        {
+            if (kkul_txt.Text != null && ksifre_txt.Text != null)
+            {
+                if (kkul_txt.Text != "" && ksifre_txt.Text != "")
+                { 
+                FirebaseResponse cevap = await client.GetAsync("Counter");
+            CounterClass alinan = cevap.ResultAs<CounterClass>();
+            client = new FireSharp.FirebaseClient(con.config);
+            Users kullanici = new Users(){Id = (Convert.ToInt32(alinan.cnt) + 1).ToString(),Password = ksifre_txt.Text,Username = kkul_txt.Text, };
+               
+                var setter = client.Set("Users/" + kkul_txt.Text, kullanici);
+            var nesne = new CounterClass{cnt = kullanici.Id};
+            SetResponse cevap1 = await client.SetAsync("Counter", nesne);
+                }
+                else { MessageBox.Show("Bilgilerinizi dogru giriniz"); }
+            }
+            else { MessageBox.Show("Bilgilerinizi dogru giriniz"); }
+            kul_txt.Visible = true;sifre_txt.Visible = true;
+            giris_btn.Visible = true; sifre_degistir.Visible = true;
+            kayit_ol_btn.Visible = true; kkul_txt.Visible = false;
+            ksifre_txt.Visible = false;kayit_btn.Visible = false;
+            sifre_degisti.Visible = false;
+
+        }
+        private void kayit_ol_btn_Click(object sender, EventArgs e)//Kayit ol ekraninda kullanilan araclariri gorunur yapar
+        {
+            kul_txt.Visible = false;sifre_txt.Visible = false;
+            giris_btn.Visible = false;sifre_degistir.Visible = false;
+            kayit_ol_btn.Visible = false;kkul_txt.Visible = true;
+            ksifre_txt.Visible = true;kayit_btn.Visible = true;
+            sifre_degisti.Visible = false;
+        }
+
+        private async void sil_btn_Click(object sender, EventArgs e)// Iletimi yapilmis kargolari siler
+        {
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass alinan = cevap.ResultAs<CounterClass>();
+            int kargo_cnt = Convert.ToInt32(alinan.kargo_cnt);
+            for (int i = kargo_cnt; i > 1; i--)
+            {
+                var setter = client.Delete("Kargo/" + i);
+            }
+            FirebaseResponse cevap1 = await client.GetAsync("kargoCounter");
+            CounterClass alinan1 = cevap1.ResultAs<CounterClass>();
+           
+            CounterClass counterclass = new CounterClass()
+            {
+                kargo_cnt = "1"
+            };
+            var setter1 = client.Update("kargoCounter", counterclass);
+
+        }
+
+        private void geri_Click(object sender, EventArgs e)
+        {
+            ekran_durumu(0);
+        }
+
+        private async void durum_sil_btn_Click(object sender, EventArgs e)//tekrardan kullanilmasi icin kargolarin durumlarini siler
+        {
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass alinan = cevap.ResultAs<CounterClass>();
+            int kargo_cnt = Convert.ToInt32(alinan.kargo_cnt);
+            for (int i = 2; i <= kargo_cnt; i++)
+            {
+
+                client = new FireSharp.FirebaseClient(con.config);
+                FirebaseResponse cevap1 = await client.GetAsync("Kargo/"+i);
+                Kargo alinan1 = cevap1.ResultAs<Kargo>();
+                Kargo kargo = new Kargo()
+                {
+                    kargoId = Convert.ToString(i),
+                    userId = Id,
+                    Adres = alinan1.Adres,
+                    Durum = ""
+                };
+                var setter = client.Update("Kargo/" + i, kargo);
+            }
+
+
+        }
+
+      
+
+        private void sifre_degistir_Click(object sender, EventArgs e)//Kullanici sifre degistirme ekranini gorunur hale getirir
+        {
+            yenisifre_txt.Visible = true; yenisifre_lbl.Visible = true;
+            kul_txt.Visible = false;sifre_txt.Visible = false;
+            giris_btn.Visible = false; sifre_degistir.Visible = false;
+            kayit_ol_btn.Visible = false;kkul_txt.Visible = true;
+            ksifre_txt.Visible = true;kayit_btn.Visible = false;
+            sifre_degisti.Visible = true;
+
+        }
+        private void delegate_deneme_Click(object sender, EventArgs e)//GUI2 mesafe hesapla fonksiyonunu cagirir
+        {
+            mesafe_cagir();
+        }
+
+}}
+
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Windows.Forms;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using GMap.NET;
+using GMap.NET.MapProviders;
+using GMap.NET.WindowsForms;
+using GMap.NET.WindowsForms.Markers;
+using System.Threading;
+
+namespace deneme
+{
+    public struct Kargo_bilgi//Kargo bilgilerinin tutulması icin kullanilan struct modeli
+    {
+        public Kargo_bilgi(string adres, string durum, string kargo_Id, string user_Id)
+        {
+            Adres = adres; Durum = durum; kargoId = kargo_Id; userId = user_Id;
+        }
+        public string Adres { get; } public string Durum { get; }
+        public string kargoId { get; } public string userId { get; }
+    }
+    public partial class GUI2 : Form
+    {
+       
+        FirebaseConnection con = new FirebaseConnection();
+        static Kargo_bilgi[] Kargo_bilgileri; // kargo bilgilerinin tutuldugu struct dizisi
+        static int bosadres, boyut, kargo_cnt, deger, bekleme_parameter = 0, son_konum_id;
+        String adres_x = "", adres_y = "", adres1_x = "", adres1_y = "";
+        static int[] son_yol, bos_adresler_id, dolu_adresler_id;
+        int[] arr = Enumerable.Repeat(42, 10000).ToArray();
+        private static List<PointLatLng> _noktalar;
+        static double son_cevap = Int32.MaxValue;
+        static string[,] ziyaretedilmemis;
+        static double[,] graph1, graph;
+        static string son_konum = "0";
+        public string Id = "1";
+        IFirebaseClient client;
+        static bool[] ziyared_edilenler;
+        public GUI2()
+        {
+            InitializeComponent();
+            _noktalar = new List<PointLatLng>();
+            Thread mainThread = Thread.CurrentThread;
+        }
+        
+        private async void gMapControl1_Load(object sender, EventArgs e)
+        {
+            Control.CheckForIllegalCrossThreadCalls = false;
+            GMapProviders.GoogleMap.ApiKey = AppConfig.Key;
+            GMaps.Instance.Mode = AccessMode.ServerAndCache;
+            map.CacheLocation = @"cache";
+            GMapProviders.GoogleMap.ApiKey = AppConfig.Key;
+            GMaps.Instance.Mode = AccessMode.ServerAndCache;
+            map.MinZoom = 5;map.MaxZoom = 100;map.Zoom = 10;
+            map.DragButton = MouseButtons.Left;map.ShowCenter = false;
+            map.MapProvider = GMapProviders.GoogleMap;
+            map.SetPositionByKeywords("Kocaeli, Turkey");
+            client = new FireSharp.FirebaseClient(con.config);
+        }
+
+        private void harita_konumla(PointLatLng point)//map konumlandirmak icin kullanilir
+        {
+            map.Position = point;
+        }
+        private void marker_ekle(PointLatLng pointToAdd, GMarkerGoogleType markerType = GMarkerGoogleType.arrow)
+        {//marker eklemek icin kullanilir
+            var markers = new GMapOverlay("markers");
+            var marker = new GMarkerGoogle(pointToAdd, markerType);
+            markers.Markers.Add(marker);
+            map.Overlays.Add(markers); 
+        }
+        private void marker_ve_konum(PointLatLng point)
+        {
+            harita_konumla(point);
+            marker_ekle(point);
+        }
+
+        private static void nokta_ekle(String adres, String adres_x, String adres_y)//noktalara dizisine nokta ekler
+        {
+
+            if (!(adres_x.Trim().Equals("") && adres_y.Trim().Equals("")))
+            {
+                MessageBox.Show("Reserve Geocoding");
+                var nokta = new PointLatLng(Convert.ToDouble(adres_x), Convert.ToDouble(adres_y));
+                GeoCoderStatusCode statusCode;
+                var yer_isareti = GoogleMapProvider.Instance.GetPlacemark(nokta, out statusCode);
+                if (statusCode == GeoCoderStatusCode.OK){adres = yer_isareti?.Address; }
+                else {adres = "Someting gone wrong. returning status code : " + statusCode; } 
+            }
+            else
+            {
+                if (!adres.Trim().Equals(""))
+                {
+                    GeoCoderStatusCode statusCode;
+                    var enlem_boylam = GoogleMapProvider.Instance.GetPoint(adres.Trim(), out statusCode);
+                    if (statusCode == GeoCoderStatusCode.OK)
+                    {
+                        var pt = enlem_boylam ?? default(PointLatLng);
+                        adres_x = enlem_boylam?.Lat.ToString();
+                        adres_y = enlem_boylam?.Lng.ToString();
+                        _noktalar.Add(new PointLatLng(Convert.ToDouble(adres_x), Convert.ToDouble(adres_y)));
+
+                    }
+                    else {MessageBox.Show("Someting gone wrong. returning status code : " + statusCode);}}  
+                else{MessageBox.Show("İnvalid data load");} 
+            }
+        }
+        private static double rota_hesapla()//noktalar dizisindeki ilk iki nokta arasındaki mesafe alinir
+        {
+            var rota = GoogleMapProvider.Instance
+                .GetRoute(_noktalar[0], _noktalar[1], false, false, 14);
+            var rotalar = new GMapOverlay("routes");
+            var r = new GMapRoute(rota.Points, "my route");
+            rotalar.Routes.Add(r);
+            double mesafe = rota.Distance;
+            return mesafe;
+            
+        }
+        public void bekle()//bekleme_parameter degeri arttirilarak yol_ciz fonksiyonunda yeni bir islem yapilmasina neden olur
+        {
+            bekleme_parameter = 1;
+        }
+        public async void mesafe_hesapla()
+        {   // kargo_cnt firebase den alinir
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass nesne = cevap.ResultAs<CounterClass>();
+            kargo_cnt = Convert.ToInt32(nesne.kargo_cnt);
+            Kargo_bilgileri = new Kargo_bilgi[kargo_cnt];
+            Kargo kargo1;
+            string adres, durum, kaId, UsId;
+            Kargo_bilgi deneme;
+            for (int m = 1; m <= kargo_cnt; m++)//Kargo bilgilerinin tutuldugu struct dizisi olusturulur
+            {
+                var cevap1 = client.Get("Kargo/" + m);
+                kargo1 = cevap1.ResultAs<Kargo>();
+                adres = kargo1.Adres; durum = kargo1.Durum;
+                kaId = kargo1.kargoId; UsId = kargo1.userId;
+                deneme = new Kargo_bilgi(adres, durum, kaId, UsId);
+                Kargo_bilgileri[m - 1] = deneme;
+            }
+            bosadres = 0;
+            for (int xn = 0; xn < kargo_cnt; xn++)//bos adreslerin sayısı alınır
+            {
+                if (Kargo_bilgileri[xn].Adres == "")
+                {
+                    bosadres++;
+                }
+
+            }
+            bos_adresler_id = new int[bosadres]; dolu_adresler_id = new int[kargo_cnt - bosadres];
+            int bos_id = 0, dolu_id = 0;
+            for (int xn = 0; xn < kargo_cnt; xn++)
+            {
+                if (Kargo_bilgileri[xn].Adres == "")
+                {
+                    bos_adresler_id[bos_id] = xn;//bos adreslerin Kargo_bilgileri[] struct dizisindeki konumu tutulur
+                    bos_id++;
+                }
+                else
+                {
+                    dolu_adresler_id[dolu_id] = xn;//dolu adreslerin Kargo_bilgileri[] struct dizisindeki konumu tutulur
+                    dolu_id++;
+                }
+            }
+            deger = kargo_cnt - bosadres; boyut = deger;
+            son_yol = new int[boyut + 1]; ziyared_edilenler = new bool[boyut];//dizi boyutlari atanir
+            graph = new double[deger, deger];
+            for (int z = 0; z < kargo_cnt; z++)//hesaplamalarin yapila bilmesi icin noktalar arasindaki mesafeler alinir
+            {
+                for (int n = 0; n < kargo_cnt; n++)
+                {
+                    if (Kargo_bilgileri[dolu_adresler_id[z]].Adres != "" && Kargo_bilgileri[dolu_adresler_id[n]].Adres != "")
+                    {
+                        nokta_ekle(Kargo_bilgileri[dolu_adresler_id[z]].Adres, adres_x, adres_y);
+                        nokta_ekle(Kargo_bilgileri[dolu_adresler_id[n]].Adres, adres1_x, adres1_y);
+                        double mesafe = rota_hesapla();graph[z, n] = mesafe; _noktalar.Clear();
+                    }
+
+
+                }
+            }
+            gezgin_kargo(graph);// gidilmesi gereken en kisa yol hesabi yapilir
+            yol_ciz(); // hesaplanan rotada kargo teslimi yapilir
+        }
+        public async void yol_ciz()
+        {
+            for (int j = 0; j < deger; j++)//kargo noktalarina marker eklenir
+            {
+                nokta_ekle(Kargo_bilgileri[dolu_adresler_id[son_yol[j]]].Adres, adres_x, adres_y);
+                nokta_ekle(Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].Adres, adres1_x, adres1_y);
+                marker_ve_konum(_noktalar[0]); marker_ve_konum(_noktalar[1]); _noktalar.Clear();
+            }
+            for (int j = 0; j < deger; j++)//dagitimi yapilan yollar  gosterilir
+            {
+                if (bekleme_parameter == 0)
+                {
+                   
+                    nokta_ekle(Kargo_bilgileri[dolu_adresler_id[son_yol[j]]].Adres, adres_x, adres_y);
+                    System.Threading.Thread.Sleep(10000);
+                    nokta_ekle(Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].Adres, adres1_x, adres1_y);
+                    
+                    son_konum = Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].Adres;
+                    harita_konumla(_noktalar[0]); harita_konumla(_noktalar[1]);
+                    var rota = GoogleMapProvider.Instance.GetRoute(_noktalar[0], _noktalar[1], false, false, 14);
+                    var r = new GMapRoute(rota.Points, "my route"){Stroke = new Pen(Color.Red, 5)  };
+                    var rotalar = new GMapOverlay("routes");
+                    rotalar.Routes.Add(r); map.Overlays.Add(rotalar);
+                    //System.Threading.Thread.Sleep(10000);
+                    if (son_yol[j + 1] == 0) {continue;}
+                    else
+                    {   // teslim edilen kargolarda durum bildirimi yapilir 
+                        FirebaseResponse resp = await client.GetAsync("kargoCounter");
+                        CounterClass get = resp.ResultAs<CounterClass>();
+                        client = new FireSharp.FirebaseClient(con.config);
+                        if (Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].kargoId!="1") { 
+                        Kargo kargo = new Kargo()
+                        {
+                            kargoId = Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].kargoId,
+                            userId = Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].userId,
+                            Adres = Kargo_bilgileri[dolu_adresler_id[son_yol[j + 1]]].Adres,
+                            Durum = "teslim_edildi"
+
+                        };
+                        var setter = client.Update("Kargo/" + kargo.kargoId, kargo);}
+
+                    }
+                    _noktalar.Clear();// aralarindaki yollar hesaplanan konumlar silinir
+                    son_konum_id = dolu_adresler_id[son_yol[j + 1]];//kesinti sonrasinda kullanilmak icin kargo konumu tutulur
+                }
+
+            }
+            if (bekleme_parameter != 0) {mesafe_hesapla_kesinti();}//kesinti sonrasi kullanilan fonksiyon cagirimi
+           
+                
+          
+        }
+        public async void mesafe_hesapla_kesinti()//yeni kargo ekleme sonrasi yeni hesaplamalar icin cagrılır
+        {
+            ziyaretedilmemis = new string[kargo_cnt + 4,2];
+            FirebaseResponse cevap = await client.GetAsync("kargoCounter");
+            CounterClass nesne = cevap.ResultAs<CounterClass>();
+            kargo_cnt = Convert.ToInt32(nesne.kargo_cnt);
+            Kargo_bilgileri = new Kargo_bilgi[kargo_cnt];
+            Kargo kargo1;
+            string adres, durum,kaId,UsId;
+            Kargo_bilgi deneme;
+            for (int m = 1; m <= kargo_cnt; m++)//kargo bilgilerinin tutuldugu struct yenilenir
+            {
+                var cevap1 = client.Get("Kargo/" + m);
+                kargo1 = cevap1.ResultAs<Kargo>();
+                adres = kargo1.Adres; durum = kargo1.Durum;
+                kaId = kargo1.kargoId; UsId = kargo1.userId;
+                deneme = new Kargo_bilgi(adres, durum, kaId, UsId);
+                Kargo_bilgileri[m - 1] = deneme;
+            }
+            bosadres = 0;
+            for (int xn = 0; xn < kargo_cnt; xn++)//bos adreslerinsayısı alınır
+            {if (Kargo_bilgileri[xn].Adres == "") { bosadres++;} }
+
+            bos_adresler_id = new int[bosadres]; dolu_adresler_id = new int[kargo_cnt - bosadres];
+            int bos_id = 0, dolu_id = 0;
+
+            for (int xn = 0; xn < kargo_cnt; xn++)
+            {
+                if (Kargo_bilgileri[xn].Adres == "")
+                {
+                    bos_adresler_id[bos_id] = xn;//bos adreslerin Kargo_bilgileri[] struct dizisindeki konumu tutulur
+                    bos_id++;
+                }
+                else
+                {
+                    dolu_adresler_id[dolu_id] = xn;//dolu adreslerin Kargo_bilgileri[] struct dizisindeki konumu tutulur
+                    dolu_id++;
+                }
+            }
+            ziyaretedilmemis[0, 0] = son_konum;
+            ziyaretedilmemis[0, 1] = Convert.ToString(son_konum_id);deger = 1;
+            for (int i = 0; i < kargo_cnt; i++)
+            {
+                if (Kargo_bilgileri[dolu_adresler_id[i]].Adres != "" && Kargo_bilgileri[dolu_adresler_id[i]].Durum == "" )
+                {
+                    ziyaretedilmemis[deger,0] = Kargo_bilgileri[dolu_adresler_id[i]].Adres;
+                    ziyaretedilmemis[deger, 1] = Convert.ToString(dolu_adresler_id[i]);
+                    deger++;
+                }
+            }
+            boyut = deger; son_yol = new int[boyut + 1]; ziyared_edilenler = new bool[boyut];
+            graph1 = new double[deger, deger];
+            
+            for (int z = 0; z < deger; z++)
+            {
+                for (int n = 0; n < deger; n++)
+                {
+                    nokta_ekle(ziyaretedilmemis[z,0], adres_x, adres_y);
+                    nokta_ekle(ziyaretedilmemis[n,0], adres1_x, adres1_y);
+                        double mesafe1 = rota_hesapla();
+                        graph1[z, n] = mesafe1;
+                    _noktalar.Clear();
+                    
+                }
+            }
+            gezgin_kargo(graph1);// en kisa yol hesaplamasi yapilir
+            yol_ciz2();
+        }
+        
+        public async void yol_ciz2() //yeni kayit sonrasi yol cizimi
+        {
+            System.Threading.Thread.Sleep(10000);
+            int j ;    
+            for (j=0 ; j < deger-1; j++)
+            {
+                
+                nokta_ekle(ziyaretedilmemis[son_yol[j],0], adres_x, adres_y);
+                System.Threading.Thread.Sleep(10000);
+                nokta_ekle(ziyaretedilmemis[son_yol[j + 1],0], adres1_x, adres1_y);
+                harita_konumla(_noktalar[0]); harita_konumla(_noktalar[1]); marker_ve_konum(_noktalar[1]);
+                var rota = GoogleMapProvider.Instance.GetRoute(_noktalar[0], _noktalar[1], false, false, 14);
+                var r = new GMapRoute(rota.Points, "my route"){ Stroke = new Pen(Color.Blue, 5)};
+                var rotalar = new GMapOverlay("routes"); rotalar.Routes.Add(r);
+                map.Overlays.Add(rotalar);
+                _noktalar.Clear();
+                FirebaseResponse resp = await client.GetAsync("kargoCounter");
+                CounterClass get = resp.ResultAs<CounterClass>();
+                client = new FireSharp.FirebaseClient(con.config);
+                if (Kargo_bilgileri[Convert.ToInt32(ziyaretedilmemis[son_yol[j + 1], 1])].kargoId.ToString()!="1") { 
+                Kargo kargo = new Kargo() //teslim edilen kargo bilgileri guncellenir
+                {
+                    kargoId = Kargo_bilgileri[Convert.ToInt32(ziyaretedilmemis[son_yol[j+1] , 1])].kargoId.ToString(),
+                    Adres = Kargo_bilgileri[Convert.ToInt32(ziyaretedilmemis[son_yol[ j+1] , 1])].Adres,
+                    userId = Id,Durum = "teslim_edildi" };
+                    var setter = client.Update("Kargo/" + kargo.kargoId, kargo); }}
+
+            nokta_ekle(ziyaretedilmemis[son_yol[j ],0], adres_x, adres_y);
+            System.Threading.Thread.Sleep(10000);
+            nokta_ekle(Kargo_bilgileri[0].Adres, adres1_x, adres1_y);
+            harita_konumla(_noktalar[0]); harita_konumla(_noktalar[1]);
+            var rota1 = GoogleMapProvider.Instance.GetRoute(_noktalar[0], _noktalar[1], false, false, 14);
+             
+            var r1 = new GMapRoute(rota1.Points, "my route") {Stroke = new Pen(Color.Blue, 5)};
+            var rotalar1 = new GMapOverlay("routes");
+            rotalar1.Routes.Add(r1);
+            map.Overlays.Add(rotalar1);
+            System.Threading.Thread.Sleep(10000);
+            _noktalar.Clear();
+
+        }
+        static void son_yol_degistir(int[] eldeki_yol)//eldeki_yol dizisi son_yol dizisine kopyalanir
+        {
+            for (int i = 0; i < boyut; i++) {
+                son_yol[i] = eldeki_yol[i];}
+            son_yol[boyut] = eldeki_yol[0];
+            
+        }
+        static double en_kucuk(double[,] adj, int i)//en kucuk yolu bulmak icin kullanilan fonksiyon
+        {
+            double min = Int32.MaxValue;
+            for (int k = 0; k < boyut; k++) { 
+                if (adj[i, k] < min && i != k) { 
+                    min = adj[i, k]; } }
+            return min;
+        }
+
+        static double ikinci_en_kucuk(double[,] adj, int i)//en kucuk ikinci yolu bulmak icin kullanilan fonksiyon
+        {
+            double ilk = Int32.MaxValue, ikinci = Int32.MaxValue;
+            for (int j = 0; j < boyut; j++)
+            {
+                if (i == j) { 
+                    continue;}
+
+                if (adj[i, j] <= ilk)
+                {
+                    ikinci = ilk;
+                    ilk = adj[i, j];
+                }
+                else if (adj[i, j] <= ikinci &&
+                        adj[i, j] != ilk)
+                {
+                    ikinci = adj[i, j]; }   
+            }
+            return ikinci;
+        }
+        static void gezgin_kargo_2(double[,] adj, double anlik_degisim, double eldeki_agirlik,
+                    int seviye, int[] eldeki_yol)
+        {
+            if (seviye == boyut)
+            {
+                if (adj[eldeki_yol[seviye - 1], eldeki_yol[0]] != 0)
+                {
+                    double eldeki_cevap = eldeki_agirlik +
+                            adj[eldeki_yol[seviye - 1], eldeki_yol[0]];
+                    if (eldeki_cevap < son_cevap)
+                    {
+                        son_yol_degistir(eldeki_yol);
+                        son_cevap = eldeki_cevap;
+                    }
+                }
+                return;
+            }
+            for (int i = 0; i < boyut; i++)
+            {
+                if (adj[eldeki_yol[seviye - 1], i] != 0 &&
+                        ziyared_edilenler[i] == false)
+                {
+                    double adim = anlik_degisim;
+                    eldeki_agirlik += adj[eldeki_yol[seviye - 1], i];
+                    if (seviye == 1)
+                        anlik_degisim -= ((en_kucuk(adj, eldeki_yol[seviye - 1]) +
+                                        en_kucuk(adj, i)) / 2);
+                    else
+                        anlik_degisim -= ((ikinci_en_kucuk(adj, eldeki_yol[seviye - 1]) +
+                                        en_kucuk(adj, i)) / 2);
+                    if (anlik_degisim + eldeki_agirlik < son_cevap)
+                    {
+                        eldeki_yol[seviye] = i;
+                        ziyared_edilenler[i] = true;
+                        gezgin_kargo_2(adj, anlik_degisim, eldeki_agirlik, seviye + 1,
+                            eldeki_yol);
+                    }
+                    eldeki_agirlik -= adj[eldeki_yol[seviye - 1], i];
+                    anlik_degisim = adim;
+                    ziyared_edilenler.Fill(false);
+
+                    for (int j = 0; j <= seviye - 1; j++)
+                        ziyared_edilenler[eldeki_yol[j]] = true;
+                }
+            }
+        }
+        static void gezgin_kargo(double[,] adj)//en kisa yolu bulan fonksiyon
+        {
+            int[] eldeki_yol = new int[boyut + 1];
+            double anlik_degisim = 0;
+            eldeki_yol.Fill(-1);
+            ziyared_edilenler.Fill(false);
+            for (int i = 0; i < boyut; i++){
+                anlik_degisim += (en_kucuk(adj, i) +
+                            ikinci_en_kucuk(adj, i)); }
+
+            anlik_degisim = (anlik_degisim == 1) ? anlik_degisim / 2 + 1 :
+                                        anlik_degisim / 2;
+            ziyared_edilenler[0] = true;
+            eldeki_yol[0] = 0;
+            gezgin_kargo_2(adj, anlik_degisim, 0, 1, eldeki_yol);
+        }
+
+    }
+    public static class ArrayExtensions
+    {
+        public static void Fill<T>(this T[] originalArray, T with)
+        {
+            for (int i = 0; i < originalArray.Length; i++)
+            {
+                originalArray[i] = with;
+            }
+        }
+    }
+}
+
+
+
+
+
+

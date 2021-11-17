@@ -1,0 +1,65 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "29",
+               "short_name" : "29",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bağ Sokak",
+               "short_name" : "Bağ Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fatih",
+               "short_name" : "Fatih",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Başiskele",
+               "short_name" : "Başiskele",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41190",
+               "short_name" : "41190",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fatih, Bağ Sk. No:29, 41190 Başiskele/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.6950449,
+               "lng" : 29.9637291
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.6963938802915,
+                  "lng" : 29.9650780802915
+               },
+               "southwest" : {
+                  "lat" : 40.6936959197085,
+                  "lng" : 29.9623801197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjdGYXRpaCwgQmHEnyBTay4gTm86MjksIDQxMTkwIEJhxZ9pc2tlbGUvS29jYWVsaSwgVHVya2V5IhoSGAoUChIJuRE3mrBEyxQR4pF0GgWdKYIQHQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

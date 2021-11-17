@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "MRFQ+5R",
+               "short_name" : "MRFQ+5R",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Musulca",
+               "short_name" : "Musulca",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Havsa",
+               "short_name" : "Havsa",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Edirne",
+               "short_name" : "Edirne",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "MRFQ+5R Musulca/Havsa/Edirne, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.67299999999999,
+                  "lng" : 26.839625
+               },
+               "southwest" : {
+                  "lat" : 41.672875,
+                  "lng" : 26.8395
+               }
+            },
+            "location" : {
+               "lat" : 41.6729375,
+               "lng" : 26.8395625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.67428648029149,
+                  "lng" : 26.8409114802915
+               },
+               "southwest" : {
+                  "lat" : 41.6715885197085,
+                  "lng" : 26.8382135197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "GhIJQWDl0CLWREARsHJoke3WOkA",
+         "plus_code" : {
+            "compound_code" : "MRFQ+5R Musulca/Havsa/Edirne, Turkey",
+            "global_code" : "8GH8MRFQ+5R"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

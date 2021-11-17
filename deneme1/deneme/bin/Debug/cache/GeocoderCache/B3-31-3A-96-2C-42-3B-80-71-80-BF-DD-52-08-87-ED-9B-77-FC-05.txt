@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "769V+RH",
+               "short_name" : "769V+RH",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "İlkadım",
+               "short_name" : "İlkadım",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Samsun",
+               "short_name" : "Samsun",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "769V+RH İlkadım/Samsun, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.269625,
+                  "lng" : 36.244
+               },
+               "southwest" : {
+                  "lat" : 41.2695,
+                  "lng" : 36.243875
+               }
+            },
+            "location" : {
+               "lat" : 41.26956250000001,
+               "lng" : 36.2439375
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.2709114802915,
+                  "lng" : 36.24528648029149
+               },
+               "southwest" : {
+                  "lat" : 41.2682135197085,
+                  "lng" : 36.2425885197085
+               }
+            }
+         },
+         "place_id" : "GhIJMN0kBoGiREARTmIQWDkfQkA",
+         "plus_code" : {
+            "compound_code" : "769V+RH İlkadım/Samsun, Turkey",
+            "global_code" : "8GHR769V+RH"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

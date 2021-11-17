@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "6",
+               "short_name" : "6",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mezarlık Sokak",
+               "short_name" : "Mezarlık Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Serdar",
+               "short_name" : "Serdar",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Başiskele",
+               "short_name" : "Başiskele",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41190",
+               "short_name" : "41190",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Serdar, Mezarlık Sk. No:6, 41190 Başiskele/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.706216,
+               "lng" : 29.94305
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7075649802915,
+                  "lng" : 29.9443989802915
+               },
+               "southwest" : {
+                  "lat" : 40.7048670197085,
+                  "lng" : 29.9417010197085
+               }
+            }
+         },
+         "place_id" : "ChIJc_a0MpNEyxQRhwV8PnC0_v4",
+         "plus_code" : {
+            "compound_code" : "PW4V+F6 Başiskele/Kocaeli, Turkey",
+            "global_code" : "8GGFPW4V+F6"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

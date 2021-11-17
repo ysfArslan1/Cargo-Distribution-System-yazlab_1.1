@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-9374WCcuRQRdDUpRC13Rxc",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-9374WCcuRQRdDUpRC13Rxc",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 38.6171009,
+               "lng" : 27.4127581
+            },
+            "southwest" : {
+               "lat" : 38.6171009,
+               "lng" : 27.4127581
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Yeni Mahalle, Mimar Sinan Blv. No:122/A, 45810 Yunusemre/Manisa, Turkey",
+               "end_location" : {
+                  "lat" : 38.6171009,
+                  "lng" : 27.4127581
+               },
+               "start_address" : "Yeni Mahalle, Mimar Sinan Blv. No:122/A, 45810 Yunusemre/Manisa, Turkey",
+               "start_location" : {
+                  "lat" : 38.6171009,
+                  "lng" : 27.4127581
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 38.6171009,
+                        "lng" : 27.4127581
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "{kujFw`ifD"
+                     },
+                     "start_location" : {
+                        "lat" : 38.6171009,
+                        "lng" : 27.4127581
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "{kujFw`ifD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

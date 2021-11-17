@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "271",
+               "short_name" : "271",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ankara Caddesi",
+               "short_name" : "Ankara Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Çayırköy",
+               "short_name" : "Çayırköy",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Kartepe",
+               "short_name" : "Kartepe",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41250",
+               "short_name" : "41250",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Çayırköy, Ankara Cd. No:271, 41250 Kartepe/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.75723240000001,
+               "lng" : 29.99577889999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.75858138029151,
+                  "lng" : 29.99712788029149
+               },
+               "southwest" : {
+                  "lat" : 40.75588341970851,
+                  "lng" : 29.99442991970849
+               }
+            }
+         },
+         "place_id" : "ChIJefrlvxJQyxQRuLSwyE8oQPE",
+         "plus_code" : {
+            "compound_code" : "QX4W+V8 Kartepe/Kocaeli, Turkey",
+            "global_code" : "8GGFQX4W+V8"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

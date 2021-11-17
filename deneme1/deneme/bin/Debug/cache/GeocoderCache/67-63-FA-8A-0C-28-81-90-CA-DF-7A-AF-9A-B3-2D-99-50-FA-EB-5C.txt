@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "23",
+               "short_name" : "23",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sarıca Paşa Caddesi",
+               "short_name" : "Sarıca Paşa Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sarıcapaşa",
+               "short_name" : "Sarıcapaşa",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Edirne Merkez",
+               "short_name" : "Edirne Merkez",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Edirne",
+               "short_name" : "Edirne",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "22030",
+               "short_name" : "22030",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sarıcapaşa, Sarıca Paşa Cd. No:23, 22030 Edirne Merkez/Edirne, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.6763079,
+               "lng" : 26.5595923
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.6776568802915,
+                  "lng" : 26.5609412802915
+               },
+               "southwest" : {
+                  "lat" : 41.6749589197085,
+                  "lng" : 26.5582433197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJpeNDE3YvsxQRwAGcoJT7Aus",
+         "plus_code" : {
+            "compound_code" : "MHG5+GR Edirne Merkez/Edirne, Turkey",
+            "global_code" : "8GH8MHG5+GR"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

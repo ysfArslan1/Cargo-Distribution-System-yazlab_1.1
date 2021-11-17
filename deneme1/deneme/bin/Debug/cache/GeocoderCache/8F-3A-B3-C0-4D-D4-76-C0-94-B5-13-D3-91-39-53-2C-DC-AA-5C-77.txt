@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "XX7M+P6",
+               "short_name" : "XX7M+P6",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Kandıra",
+               "short_name" : "Kandıra",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "XX7M+P6 Kandıra/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.964375,
+                  "lng" : 29.98312499999999
+               },
+               "southwest" : {
+                  "lat" : 40.96425,
+                  "lng" : 29.983
+               }
+            },
+            "location" : {
+               "lat" : 40.9643125,
+               "lng" : 29.9830625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.9656614802915,
+                  "lng" : 29.9844114802915
+               },
+               "southwest" : {
+                  "lat" : 40.9629635197085,
+                  "lng" : 29.9817135197085
+               }
+            }
+         },
+         "place_id" : "GhIJ30-Nl257REARimzn-6n7PUA",
+         "plus_code" : {
+            "compound_code" : "XX7M+P6 Kandıra/Kocaeli, Turkey",
+            "global_code" : "8GGFXX7M+P6"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "RQ2Q+GM",
+               "short_name" : "RQ2Q+GM",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Hendek",
+               "short_name" : "Hendek",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sakarya",
+               "short_name" : "Sakarya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "RQ2Q+GM Hendek/Sakarya, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.801375,
+                  "lng" : 30.78925
+               },
+               "southwest" : {
+                  "lat" : 40.80125,
+                  "lng" : 30.789125
+               }
+            },
+            "location" : {
+               "lat" : 40.8013125,
+               "lng" : 30.7891875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.80266148029149,
+                  "lng" : 30.7905364802915
+               },
+               "southwest" : {
+                  "lat" : 40.79996351970849,
+                  "lng" : 30.7878385197085
+               }
+            }
+         },
+         "place_id" : "GhIJIbByaJFmREAReekmMQjKPkA",
+         "plus_code" : {
+            "compound_code" : "RQ2Q+GM Hendek/Sakarya, Turkey",
+            "global_code" : "8GGGRQ2Q+GM"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

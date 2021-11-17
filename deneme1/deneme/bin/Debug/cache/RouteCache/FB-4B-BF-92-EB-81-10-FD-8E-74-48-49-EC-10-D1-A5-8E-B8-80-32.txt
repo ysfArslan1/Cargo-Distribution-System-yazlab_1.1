@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJWRqB1ivhtBQR4Ykuj5vEuoQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJWRqB1ivhtBQR4Ykuj5vEuoQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.14890510000001,
+               "lng" : 27.8370378
+            },
+            "southwest" : {
+               "lat" : 41.14890510000001,
+               "lng" : 27.8370378
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Zafer, Şehitler Cd No:6, 59850 Çorlu/Tekirdağ, Turkey",
+               "end_location" : {
+                  "lat" : 41.14890510000001,
+                  "lng" : 27.8370378
+               },
+               "start_address" : "Zafer, Şehitler Cd No:6, 59850 Çorlu/Tekirdağ, Turkey",
+               "start_location" : {
+                  "lat" : 41.14890510000001,
+                  "lng" : 27.8370378
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.14890510000001,
+                        "lng" : 27.8370378
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eŞehitler Cd\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "u{czFo|{hD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.14890510000001,
+                        "lng" : 27.8370378
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "u{czFo|{hD"
+         },
+         "summary" : "Şehitler Cd",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3",
+               "short_name" : "3",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Koru Sokak",
+               "short_name" : "Koru Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Yahyakaptan",
+               "short_name" : "Yahyakaptan",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "İzmit",
+               "short_name" : "İzmit",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41050",
+               "short_name" : "41050",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yahyakaptan, Koru Sk. No:3, 41050 İzmit/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7615893,
+               "lng" : 29.977881
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.76293828029151,
+                  "lng" : 29.9792299802915
+               },
+               "southwest" : {
+                  "lat" : 40.76024031970851,
+                  "lng" : 29.9765320197085
+               }
+            }
+         },
+         "place_id" : "ChIJzfWszxxQyxQRWo_gpC525bo",
+         "plus_code" : {
+            "compound_code" : "QX6H+J5 İzmit/Kocaeli, Turkey",
+            "global_code" : "8GGFQX6H+J5"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

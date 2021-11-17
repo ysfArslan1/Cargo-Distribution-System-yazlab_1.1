@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJh0HjbtcLnkARstQ1BFSJpzw",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJh0HjbtcLnkARstQ1BFSJpzw",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.0317387,
+               "lng" : 30.3002432
+            },
+            "southwest" : {
+               "lat" : 41.0317387,
+               "lng" : 30.3002432
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Orta, Yurt Sk., 54650 Kaynarca/Sakarya, Turkey",
+               "end_location" : {
+                  "lat" : 41.0317387,
+                  "lng" : 30.3002432
+               },
+               "start_address" : "Orta, Yurt Sk., 54650 Kaynarca/Sakarya, Turkey",
+               "start_location" : {
+                  "lat" : 41.0317387,
+                  "lng" : 30.3002432
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.0317387,
+                        "lng" : 30.3002432
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "k_myFo_}wD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.0317387,
+                        "lng" : 30.3002432
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "k_myFo_}wD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

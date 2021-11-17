@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ31exzdG2yhQRvlOTa_UDbi0",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ31exzdG2yhQRvlOTa_UDbi0",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.0815904,
+               "lng" : 28.9612852
+            },
+            "southwest" : {
+               "lat" : 41.0815904,
+               "lng" : 28.9612852
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Güzeltepe, Mimoza Sk. No:32, 34060 Eyüpsultan/İstanbul, Turkey",
+               "end_location" : {
+                  "lat" : 41.0815904,
+                  "lng" : 28.9612852
+               },
+               "start_address" : "Güzeltepe, Mimoza Sk. No:32, 34060 Eyüpsultan/İstanbul, Turkey",
+               "start_location" : {
+                  "lat" : 41.0815904,
+                  "lng" : 28.9612852
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.0815904,
+                        "lng" : 28.9612852
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eMimoza Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "}vvyFaowoD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.0815904,
+                        "lng" : 28.9612852
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "}vvyFaowoD"
+         },
+         "summary" : "Mimoza Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

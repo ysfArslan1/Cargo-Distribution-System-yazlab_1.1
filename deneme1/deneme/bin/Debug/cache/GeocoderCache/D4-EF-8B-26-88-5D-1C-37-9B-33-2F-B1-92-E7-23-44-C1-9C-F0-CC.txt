@@ -1,0 +1,73 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "317",
+               "short_name" : "317",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bağdat Caddesi",
+               "short_name" : "Bağdat Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Hacı Osman",
+               "short_name" : "Hacı Osman",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Belen",
+               "short_name" : "Belen",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Körfez",
+               "short_name" : "Körfez",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41780",
+               "short_name" : "41780",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Hacı Osman, Bağdat Cd. No:317, 41780 Belen/Körfez/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.773971,
+               "lng" : 29.756355
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7753199802915,
+                  "lng" : 29.7577039802915
+               },
+               "southwest" : {
+                  "lat" : 40.7726220197085,
+                  "lng" : 29.7550060197085
+               }
+            }
+         },
+         "place_id" : "ChIJy9GqPPc4yxQRdQ8QIFhVDtA",
+         "plus_code" : {
+            "compound_code" : "QQF4+HG Belen/Körfez/Kocaeli, Turkey",
+            "global_code" : "8GGFQQF4+HG"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

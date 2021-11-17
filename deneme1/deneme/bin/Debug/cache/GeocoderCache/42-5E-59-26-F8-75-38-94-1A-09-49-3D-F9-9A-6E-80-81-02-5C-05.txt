@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3WMV+79",
+               "short_name" : "3WMV+79",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Beyce",
+               "short_name" : "Beyce",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Simav",
+               "short_name" : "Simav",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kütahya",
+               "short_name" : "Kütahya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "3WMV+79 Beyce/Simav/Kütahya, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 39.08325,
+                  "lng" : 28.9435
+               },
+               "southwest" : {
+                  "lat" : 39.083125,
+                  "lng" : 28.943375
+               }
+            },
+            "location" : {
+               "lat" : 39.0831875,
+               "lng" : 28.9434375
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.0845364802915,
+                  "lng" : 28.9447864802915
+               },
+               "southwest" : {
+                  "lat" : 39.0818385197085,
+                  "lng" : 28.9420885197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "GhIJz_dT46WKQ0AR61G4HoXxPEA",
+         "plus_code" : {
+            "compound_code" : "3WMV+79 Beyce/Simav/Kütahya, Turkey",
+            "global_code" : "8GFC3WMV+79"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

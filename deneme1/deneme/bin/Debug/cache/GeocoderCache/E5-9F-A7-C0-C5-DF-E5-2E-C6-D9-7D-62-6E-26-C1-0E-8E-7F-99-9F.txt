@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "32",
+               "short_name" : "32",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ege Sokak",
+               "short_name" : "Ege Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Akarbaşı",
+               "short_name" : "Akarbaşı",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Odunpazarı",
+               "short_name" : "Odunpazarı",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Eskişehir",
+               "short_name" : "Eskişehir",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "26020",
+               "short_name" : "26020",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Akarbaşı, Ege Sk. No:32, 26020 Odunpazarı/Eskişehir, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 39.7635654,
+               "lng" : 30.5120825
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.7649143802915,
+                  "lng" : 30.5134314802915
+               },
+               "southwest" : {
+                  "lat" : 39.7622164197085,
+                  "lng" : 30.5107335197085
+               }
+            }
+         },
+         "place_id" : "ChIJAShIwBYWzBQRH-d8UJrYLm4",
+         "plus_code" : {
+            "compound_code" : "QG76+CR Odunpazarı/Eskişehir, Turkey",
+            "global_code" : "8GFGQG76+CR"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

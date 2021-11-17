@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "No:45/5",
+               "short_name" : "No:45/5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Donatımpark İçi",
+               "short_name" : "Donatımpark İçi",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mithatpaşa",
+               "short_name" : "Mithatpaşa",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Adapazarı",
+               "short_name" : "Adapazarı",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sakarya",
+               "short_name" : "Sakarya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "54100",
+               "short_name" : "54100",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Mithatpaşa Mah. Kudüs Caddesi, Mithatpaşa, Donatımpark İçi No:45/5, 54100 Adapazarı/Sakarya, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7717349,
+               "lng" : 30.3900801
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7730838802915,
+                  "lng" : 30.3914290802915
+               },
+               "southwest" : {
+                  "lat" : 40.7703859197085,
+                  "lng" : 30.3887311197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJAdOByC2zzBQRcV0VIN-9ACw",
+         "plus_code" : {
+            "compound_code" : "Q9CR+M2 Adapazarı/Sakarya, Turkey",
+            "global_code" : "8GGGQ9CR+M2"
+         },
+         "types" : [ "establishment", "local_government_office", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

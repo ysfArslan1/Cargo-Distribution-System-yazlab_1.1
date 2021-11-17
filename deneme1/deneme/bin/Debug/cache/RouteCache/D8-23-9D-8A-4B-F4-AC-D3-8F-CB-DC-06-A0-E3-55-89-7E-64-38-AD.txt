@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk9Ne44ROyxQRZvteeGzaq-M",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk9Ne44ROyxQRZvteeGzaq-M",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.836132,
+               "lng" : 29.9191275
+            },
+            "southwest" : {
+               "lat" : 40.836132,
+               "lng" : 29.9191275
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Kaşıkçı, İsimsiz Yol, 41900 Derince/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.836132,
+                  "lng" : 29.9191275
+               },
+               "start_address" : "Kaşıkçı, İsimsiz Yol, 41900 Derince/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.836132,
+                  "lng" : 29.9191275
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.836132,
+                        "lng" : 29.9191275
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "yxfxFqqruD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.836132,
+                        "lng" : 29.9191275
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yxfxFqqruD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

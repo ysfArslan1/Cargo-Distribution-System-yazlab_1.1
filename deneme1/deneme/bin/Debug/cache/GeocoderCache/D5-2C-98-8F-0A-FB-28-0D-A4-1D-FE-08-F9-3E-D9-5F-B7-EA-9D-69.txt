@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3MMR+96",
+               "short_name" : "3MMR+96",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Şile",
+               "short_name" : "Şile",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "3MMR+96 Şile/İstanbul, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.0835,
+                  "lng" : 29.69062499999999
+               },
+               "southwest" : {
+                  "lat" : 41.083375,
+                  "lng" : 29.6905
+               }
+            },
+            "location" : {
+               "lat" : 41.0834375,
+               "lng" : 29.6905625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.08478648029149,
+                  "lng" : 29.69191148029149
+               },
+               "southwest" : {
+                  "lat" : 41.08208851970849,
+                  "lng" : 29.6892135197085
+               }
+            }
+         },
+         "place_id" : "GhIJR-F6FK6KREAREVg5tMiwPUA",
+         "plus_code" : {
+            "compound_code" : "3MMR+96 Şile/İstanbul, Turkey",
+            "global_code" : "8GHF3MMR+96"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

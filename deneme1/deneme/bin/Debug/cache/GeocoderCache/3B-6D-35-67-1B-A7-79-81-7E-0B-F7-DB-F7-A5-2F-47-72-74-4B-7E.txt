@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "32",
+               "short_name" : "32",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mimoza Sokak",
+               "short_name" : "Mimoza Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Güzeltepe",
+               "short_name" : "Güzeltepe",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Eyüpsultan",
+               "short_name" : "Eyüpsultan",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34060",
+               "short_name" : "34060",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Güzeltepe, Mimoza Sk. No:32, 34060 Eyüpsultan/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.0817527,
+               "lng" : 28.9613888
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.08310168029149,
+                  "lng" : 28.9627377802915
+               },
+               "southwest" : {
+                  "lat" : 41.08040371970849,
+                  "lng" : 28.9600398197085
+               }
+            }
+         },
+         "place_id" : "ChIJ31exzdG2yhQRvlOTa_UDbi0",
+         "plus_code" : {
+            "compound_code" : "3XJ6+PH Eyüpsultan/İstanbul, Turkey",
+            "global_code" : "8GHC3XJ6+PH"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

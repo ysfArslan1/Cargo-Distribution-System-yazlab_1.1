@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "345P+VP",
+               "short_name" : "345P+VP",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Kandıra",
+               "short_name" : "Kandıra",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "345P+VP Kandıra/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.05975,
+                  "lng" : 30.136875
+               },
+               "southwest" : {
+                  "lat" : 41.059625,
+                  "lng" : 30.13675
+               }
+            },
+            "location" : {
+               "lat" : 41.0596875,
+               "lng" : 30.1368125
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.0610364802915,
+                  "lng" : 30.1381614802915
+               },
+               "southwest" : {
+                  "lat" : 41.0583385197085,
+                  "lng" : 30.1354635197085
+               }
+            }
+         },
+         "place_id" : "GhIJcD0K16OHREARGy_dJAYjPkA",
+         "plus_code" : {
+            "compound_code" : "345P+VP Kandıra/Kocaeli, Turkey",
+            "global_code" : "8GHG345P+VP"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

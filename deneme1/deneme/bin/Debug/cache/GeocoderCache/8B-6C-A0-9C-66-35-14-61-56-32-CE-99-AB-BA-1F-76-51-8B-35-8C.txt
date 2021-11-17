@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "28J2+M4",
+               "short_name" : "28J2+M4",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Kaynarca",
+               "short_name" : "Kaynarca",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sakarya",
+               "short_name" : "Sakarya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "28J2+M4 Kaynarca/Sakarya, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.03175,
+                  "lng" : 30.300375
+               },
+               "southwest" : {
+                  "lat" : 41.031625,
+                  "lng" : 30.30025
+               }
+            },
+            "location" : {
+               "lat" : 41.0316875,
+               "lng" : 30.3003125
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.0330364802915,
+                  "lng" : 30.3016614802915
+               },
+               "southwest" : {
+                  "lat" : 41.0303385197085,
+                  "lng" : 30.2989635197085
+               }
+            }
+         },
+         "place_id" : "GhIJkxgEVg6EREARexSuR-FMPkA",
+         "plus_code" : {
+            "compound_code" : "28J2+M4 Kaynarca/Sakarya, Turkey",
+            "global_code" : "8GHG28J2+M4"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

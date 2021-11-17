@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "8",
+               "short_name" : "8",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Yenilik Sokak",
+               "short_name" : "Yenilik Sk",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sahilköy Mh.",
+               "short_name" : "Sahilköy Mh.",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Şile",
+               "short_name" : "Şile",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34983",
+               "short_name" : "34983",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sahilköy Mh., Yenilik Sk No:8, 34983 Şile/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.1963211,
+               "lng" : 29.4156818
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.1976700802915,
+                  "lng" : 29.4170307802915
+               },
+               "southwest" : {
+                  "lat" : 41.1949721197085,
+                  "lng" : 29.4143328197085
+               }
+            }
+         },
+         "place_id" : "ChIJ10I5Q8PRn0ARsK33w0Y4d-0",
+         "plus_code" : {
+            "compound_code" : "5CW8+G7 Şile/İstanbul, Turkey",
+            "global_code" : "8GHF5CW8+G7"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

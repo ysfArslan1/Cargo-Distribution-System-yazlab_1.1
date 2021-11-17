@@ -1,0 +1,54 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beşiktaş",
+               "short_name" : "Beşiktaş",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Beşiktaş/İstanbul, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.106673,
+                  "lng" : 29.055098
+               },
+               "southwest" : {
+                  "lat" : 41.036762,
+                  "lng" : 28.9895661
+               }
+            },
+            "location" : {
+               "lat" : 41.068616,
+               "lng" : 29.0285355
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.106673,
+                  "lng" : 29.055098
+               },
+               "southwest" : {
+                  "lat" : 41.036762,
+                  "lng" : 28.9895661
+               }
+            }
+         },
+         "place_id" : "ChIJ8ZOBbz-2yhQRjAGhKalkyDY",
+         "types" : [ "administrative_area_level_2", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

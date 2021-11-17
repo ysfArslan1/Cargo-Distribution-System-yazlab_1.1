@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJPVMNzKkznkARgVzeYE8mMd0",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJPVMNzKkznkARgVzeYE8mMd0",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.1664492,
+               "lng" : 29.607344
+            },
+            "southwest" : {
+               "lat" : 41.1664492,
+               "lng" : 29.607344
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Çavuş, Hazine Sk. no 24, 34980 Şile/İstanbul, Turkey",
+               "end_location" : {
+                  "lat" : 41.1664492,
+                  "lng" : 29.607344
+               },
+               "start_address" : "Çavuş, Hazine Sk. no 24, 34980 Şile/İstanbul, Turkey",
+               "start_location" : {
+                  "lat" : 41.1664492,
+                  "lng" : 29.607344
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.1664492,
+                        "lng" : 29.607344
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eHazine Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "iigzF{tusD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.1664492,
+                        "lng" : 29.607344
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "iigzF{tusD"
+         },
+         "summary" : "Hazine Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

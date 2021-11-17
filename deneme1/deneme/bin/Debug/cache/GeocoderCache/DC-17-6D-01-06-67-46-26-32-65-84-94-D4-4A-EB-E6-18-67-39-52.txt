@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "163",
+               "short_name" : "163",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cumhuriyet Caddesi",
+               "short_name" : "Cumhuriyet Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Şehreküstü",
+               "short_name" : "Şehreküstü",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Osmangazi",
+               "short_name" : "Osmangazi",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Bursa",
+               "short_name" : "Bursa",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "16050",
+               "short_name" : "16050",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Şehreküstü, Cumhuriyet Cd. No:163, 16050 Osmangazi/Bursa, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.186126,
+               "lng" : 29.059517
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.1874749802915,
+                  "lng" : 29.0608659802915
+               },
+               "southwest" : {
+                  "lat" : 40.1847770197085,
+                  "lng" : 29.0581680197085
+               }
+            }
+         },
+         "place_id" : "ChIJjeAN5OI9yhQRZc8sHoHvBKY",
+         "plus_code" : {
+            "compound_code" : "53P5+FR Osmangazi/Bursa, Turkey",
+            "global_code" : "8GGF53P5+FR"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

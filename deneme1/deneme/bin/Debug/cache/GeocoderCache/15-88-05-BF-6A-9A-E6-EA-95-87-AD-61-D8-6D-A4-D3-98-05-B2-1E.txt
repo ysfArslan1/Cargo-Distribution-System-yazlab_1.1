@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "no 24",
+               "short_name" : "no 24",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hazine Sokağı",
+               "short_name" : "Hazine Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Çavuş",
+               "short_name" : "Çavuş",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Şile",
+               "short_name" : "Şile",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34980",
+               "short_name" : "34980",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Çavuş, Hazine Sk. no 24, 34980 Şile/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.1666206,
+               "lng" : 29.6074576
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.1679695802915,
+                  "lng" : 29.6088065802915
+               },
+               "southwest" : {
+                  "lat" : 41.16527161970851,
+                  "lng" : 29.6061086197085
+               }
+            }
+         },
+         "place_id" : "ChIJPVMNzKkznkARgVzeYE8mMd0",
+         "plus_code" : {
+            "compound_code" : "5J84+JX Şile/İstanbul, Turkey",
+            "global_code" : "8GHF5J84+JX"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

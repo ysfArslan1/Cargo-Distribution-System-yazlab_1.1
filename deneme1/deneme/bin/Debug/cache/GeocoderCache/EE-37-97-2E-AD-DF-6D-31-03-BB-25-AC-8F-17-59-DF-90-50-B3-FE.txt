@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "F332+C2",
+               "short_name" : "F332+C2",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Pamukova",
+               "short_name" : "Pamukova",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sakarya",
+               "short_name" : "Sakarya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "F332+C2 Pamukova/Sakarya, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.453625,
+                  "lng" : 30.050125
+               },
+               "southwest" : {
+                  "lat" : 40.4535,
+                  "lng" : 30.04999999999999
+               }
+            },
+            "location" : {
+               "lat" : 40.4535625,
+               "lng" : 30.0500625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.4549114802915,
+                  "lng" : 30.05141148029149
+               },
+               "southwest" : {
+                  "lat" : 40.4522135197085,
+                  "lng" : 30.0487135197085
+               }
+            }
+         },
+         "place_id" : "GhIJkxgEVg46REARiUFg5dAMPkA",
+         "plus_code" : {
+            "compound_code" : "F332+C2 Pamukova/Sakarya, Turkey",
+            "global_code" : "8GGGF332+C2"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

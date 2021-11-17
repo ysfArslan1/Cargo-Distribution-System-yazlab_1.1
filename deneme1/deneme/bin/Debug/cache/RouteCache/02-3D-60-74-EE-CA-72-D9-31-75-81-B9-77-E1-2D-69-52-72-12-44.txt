@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJJZbUD4TXh0ARlDHpMjbMxd4",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJJZbUD4TXh0ARlDHpMjbMxd4",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.2686464,
+               "lng" : 36.24427960000001
+            },
+            "southwest" : {
+               "lat" : 41.2686464,
+               "lng" : 36.24427960000001
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Çatkaya, Unnamed Road, 55000 İlkadım/Samsun, Turkey",
+               "end_location" : {
+                  "lat" : 41.2686464,
+                  "lng" : 36.24427960000001
+               },
+               "start_address" : "Çatkaya, Unnamed Road, 55000 İlkadım/Samsun, Turkey",
+               "start_location" : {
+                  "lat" : 41.2686464,
+                  "lng" : 36.24427960000001
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.2686464,
+                        "lng" : 36.24427960000001
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "ah{zFw}e|E"
+                     },
+                     "start_location" : {
+                        "lat" : 41.2686464,
+                        "lng" : 36.24427960000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ah{zFw}e|E"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

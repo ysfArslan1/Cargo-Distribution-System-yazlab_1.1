@@ -1,0 +1,64 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "101",
+               "short_name" : "101",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "İstiklal Caddesi",
+               "short_name" : "İstiklal Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Ömerağa",
+               "short_name" : "Ömerağa",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "İzmit",
+               "short_name" : "İzmit",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41300",
+               "short_name" : "41300",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ömerağa, İstiklal Cd. No:101, 41300 İzmit/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.764415,
+               "lng" : 29.92785
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7657639802915,
+                  "lng" : 29.9291989802915
+               },
+               "southwest" : {
+                  "lat" : 40.7630660197085,
+                  "lng" : 29.9265010197085
+               }
+            }
+         },
+         "place_id" : "ChIJmZG6KYBFyxQRjvyze7KvMYs",
+         "types" : [ "establishment", "finance", "point_of_interest", "post_office" ]
+      }
+   ],
+   "status" : "OK"
+}

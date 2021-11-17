@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "38PQ+62",
+               "short_name" : "38PQ+62",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Çekmeköy",
+               "short_name" : "Çekmeköy",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "38PQ+62 Çekmeköy/İstanbul, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.085625,
+                  "lng" : 29.337625
+               },
+               "southwest" : {
+                  "lat" : 41.0855,
+                  "lng" : 29.3375
+               }
+            },
+            "location" : {
+               "lat" : 41.08556249999999,
+               "lng" : 29.3375625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.0869114802915,
+                  "lng" : 29.3389114802915
+               },
+               "southwest" : {
+                  "lat" : 41.0842135197085,
+                  "lng" : 29.3362135197085
+               }
+            }
+         },
+         "place_id" : "GhIJyqFFtvOKREARI9v5fmpWPUA",
+         "plus_code" : {
+            "compound_code" : "38PQ+62 Çekmeköy/İstanbul, Turkey",
+            "global_code" : "8GHF38PQ+62"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

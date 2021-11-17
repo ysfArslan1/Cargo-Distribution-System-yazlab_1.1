@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "CFMC+Q6",
+               "short_name" : "CFMC+Q6",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Taraklı",
+               "short_name" : "Taraklı",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sakarya",
+               "short_name" : "Sakarya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "CFMC+Q6 Taraklı/Sakarya, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.4345,
+                  "lng" : 30.470625
+               },
+               "southwest" : {
+                  "lat" : 40.434375,
+                  "lng" : 30.4705
+               }
+            },
+            "location" : {
+               "lat" : 40.4344375,
+               "lng" : 30.4705625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.43578648029149,
+                  "lng" : 30.4719114802915
+               },
+               "southwest" : {
+                  "lat" : 40.43308851970849,
+                  "lng" : 30.4692135197085
+               }
+            }
+         },
+         "place_id" : "GhIJ-FPjpZs3REARWDm0yHZ4PkA",
+         "plus_code" : {
+            "compound_code" : "CFMC+Q6 Taraklı/Sakarya, Turkey",
+            "global_code" : "8GGGCFMC+Q6"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

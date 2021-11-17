@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "15",
+               "short_name" : "15",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mermerciler Caddesi",
+               "short_name" : "Mermerciler Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Aydınlı - İstanbul Ay Osb",
+               "short_name" : "Aydınlı - İstanbul Ay Osb",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tuzla",
+               "short_name" : "Tuzla",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34956",
+               "short_name" : "34956",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Mermerciler Cd. No:15, 34956 Aydınlı - İstanbul Ay Osb/Tuzla/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.8816874,
+               "lng" : 29.3868042
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.88303638029149,
+                  "lng" : 29.3881531802915
+               },
+               "southwest" : {
+                  "lat" : 40.8803384197085,
+                  "lng" : 29.3854552197085
+               }
+            }
+         },
+         "place_id" : "ChIJ-YKanFjYyhQRX7rfInQYRHk",
+         "plus_code" : {
+            "compound_code" : "V9JP+MP Aydınlı - İstanbul Ay Osb/Tuzla/İstanbul, Turkey",
+            "global_code" : "8GGFV9JP+MP"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

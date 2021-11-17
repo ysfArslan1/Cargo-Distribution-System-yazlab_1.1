@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "14",
+               "short_name" : "14",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Şenevler Sokak",
+               "short_name" : "Şenevler Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sağlık",
+               "short_name" : "Sağlık",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Bolu Merkez",
+               "short_name" : "Bolu Merkez",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Bolu",
+               "short_name" : "Bolu",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "14300",
+               "short_name" : "14300",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sağlık, Şenevler Sk. No:14, 14300 Bolu Merkez/Bolu, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7465677,
+               "lng" : 31.60953929999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7479166802915,
+                  "lng" : 31.61088828029149
+               },
+               "southwest" : {
+                  "lat" : 40.7452187197085,
+                  "lng" : 31.6081903197085
+               }
+            }
+         },
+         "place_id" : "ChIJaYllHAQ_nUAR_KDBq_l_9BU",
+         "plus_code" : {
+            "compound_code" : "PJW5+JR Bolu Merkez/Bolu, Turkey",
+            "global_code" : "8GGHPJW5+JR"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

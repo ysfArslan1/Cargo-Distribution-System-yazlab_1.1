@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "11",
+               "short_name" : "11",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "5769. Sokak",
+               "short_name" : "5769. Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Habibler",
+               "short_name" : "Habibler",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Kepez",
+               "short_name" : "Kepez",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Antalya",
+               "short_name" : "Antalya",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "07320",
+               "short_name" : "07320",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Habibler, 5769. Sk. No:11, 07320 Kepez/Antalya, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 36.949838,
+               "lng" : 30.737665
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.9511869802915,
+                  "lng" : 30.7390139802915
+               },
+               "southwest" : {
+                  "lat" : 36.9484890197085,
+                  "lng" : 30.7363160197085
+               }
+            }
+         },
+         "place_id" : "ChIJv64O18KFwxQRNwchxxjm8Lk",
+         "plus_code" : {
+            "compound_code" : "WPXQ+W3 Kepez/Antalya, Turkey",
+            "global_code" : "8G8GWPXQ+W3"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

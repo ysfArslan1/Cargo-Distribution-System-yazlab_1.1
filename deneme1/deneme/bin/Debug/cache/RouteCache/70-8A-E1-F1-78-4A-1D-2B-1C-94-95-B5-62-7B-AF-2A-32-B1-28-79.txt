@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJkeHK-08UyhQRWl3vdbTBH9Y",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJkeHK-08UyhQRWl3vdbTBH9Y",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.2354264,
+               "lng" : 28.9882812
+            },
+            "southwest" : {
+               "lat" : 40.2354264,
+               "lng" : 28.9882812
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Bağlarbaşı, Elmapınar Sk. No:10, 16160 Osmangazi/Bursa, Turkey",
+               "end_location" : {
+                  "lat" : 40.2354264,
+                  "lng" : 28.9882812
+               },
+               "start_address" : "Bağlarbaşı, Elmapınar Sk. No:10, 16160 Osmangazi/Bursa, Turkey",
+               "start_location" : {
+                  "lat" : 40.2354264,
+                  "lng" : 28.9882812
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.2354264,
+                        "lng" : 28.9882812
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eElmapınar Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "mnqtFww|oD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.2354264,
+                        "lng" : 28.9882812
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "mnqtFww|oD"
+         },
+         "summary" : "Elmapınar Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

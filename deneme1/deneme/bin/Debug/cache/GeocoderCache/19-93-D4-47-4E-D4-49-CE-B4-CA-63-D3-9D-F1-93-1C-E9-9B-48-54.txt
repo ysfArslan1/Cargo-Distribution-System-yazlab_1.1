@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "26",
+               "short_name" : "26",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tarakçı Caddesi",
+               "short_name" : "Tarakçı Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Zekeriyaköy Mh",
+               "short_name" : "Zekeriyaköy Mh",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Sarıyer",
+               "short_name" : "Sarıyer",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34450",
+               "short_name" : "34450",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zekeriyaköy Mh, Tarakçı Cd. No:26, 34450 Sarıyer/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.206286,
+               "lng" : 29.033732
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.20763498029149,
+                  "lng" : 29.0350809802915
+               },
+               "southwest" : {
+                  "lat" : 41.2049370197085,
+                  "lng" : 29.0323830197085
+               }
+            }
+         },
+         "place_id" : "ChIJraJKIgLhn0ARjAo1pCe9S1o",
+         "plus_code" : {
+            "compound_code" : "624M+GF Sarıyer/İstanbul, Turkey",
+            "global_code" : "8GHF624M+GF"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

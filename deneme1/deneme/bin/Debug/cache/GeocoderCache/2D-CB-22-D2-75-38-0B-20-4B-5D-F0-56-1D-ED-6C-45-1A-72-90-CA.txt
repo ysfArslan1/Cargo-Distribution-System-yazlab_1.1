@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "21",
+               "short_name" : "21",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Esnemez Sokak",
+               "short_name" : "Esnemez Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Ertuğrulgazi",
+               "short_name" : "Ertuğrulgazi",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Tepebaşı",
+               "short_name" : "Tepebaşı",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Eskişehir",
+               "short_name" : "Eskişehir",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "26150",
+               "short_name" : "26150",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ertuğrulgazi, Esnemez Sk. No:21, 26150 Tepebaşı/Eskişehir, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 39.7788035,
+               "lng" : 30.4824098
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.78015248029149,
+                  "lng" : 30.4837587802915
+               },
+               "southwest" : {
+                  "lat" : 39.7774545197085,
+                  "lng" : 30.4810608197085
+               }
+            }
+         },
+         "place_id" : "ChIJ90RyW30WzBQRNKxmtDX4sp0",
+         "plus_code" : {
+            "compound_code" : "QFHJ+GX Odunpazarı/Eskişehir, Turkey",
+            "global_code" : "8GFGQFHJ+GX"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

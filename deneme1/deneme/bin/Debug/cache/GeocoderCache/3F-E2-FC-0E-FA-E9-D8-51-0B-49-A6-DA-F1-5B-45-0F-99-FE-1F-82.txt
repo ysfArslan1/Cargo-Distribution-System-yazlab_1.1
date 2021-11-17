@@ -1,0 +1,64 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "JVRM+RM",
+               "short_name" : "JVRM+RM",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Gölcük",
+               "short_name" : "Gölcük",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "JVRM+RM Gölcük/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.642125,
+                  "lng" : 29.88425
+               },
+               "southwest" : {
+                  "lat" : 40.642,
+                  "lng" : 29.884125
+               }
+            },
+            "location" : {
+               "lat" : 40.6420625,
+               "lng" : 29.8841875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.6434114802915,
+                  "lng" : 29.8855364802915
+               },
+               "southwest" : {
+                  "lat" : 40.64071351970851,
+                  "lng" : 29.8828385197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "GhIJd76fGi9SREARMQisHFriPUA",
+         "plus_code" : {
+            "compound_code" : "JVRM+RM Gölcük/Kocaeli, Turkey",
+            "global_code" : "8GGFJVRM+RM"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

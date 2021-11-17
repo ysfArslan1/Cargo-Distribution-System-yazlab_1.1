@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJy9GqPPc4yxQRdQ8QIFhVDtA",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJy9GqPPc4yxQRdQ8QIFhVDtA",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.7739585,
+               "lng" : 29.7564363
+            },
+            "southwest" : {
+               "lat" : 40.7739585,
+               "lng" : 29.7564363
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Hacı Osman, Bağdat Cd. No:317, 41780 Belen/Körfez/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.7739585,
+                  "lng" : 29.7564363
+               },
+               "start_address" : "Hacı Osman, Bağdat Cd. No:317, 41780 Belen/Körfez/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.7739585,
+                  "lng" : 29.7564363
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.7739585,
+                        "lng" : 29.7564363
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eÇakı Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "gtzwFwxrtD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7739585,
+                        "lng" : 29.7564363
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "gtzwFwxrtD"
+         },
+         "summary" : "Çakı Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "RWP9+MX",
+               "short_name" : "RWP9+MX",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Derince",
+               "short_name" : "Derince",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "RWP9+MX Derince/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.83674999999999,
+                  "lng" : 29.91999999999999
+               },
+               "southwest" : {
+                  "lat" : 40.836625,
+                  "lng" : 29.919875
+               }
+            },
+            "location" : {
+               "lat" : 40.8366875,
+               "lng" : 29.9199375
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.8380364802915,
+                  "lng" : 29.9212864802915
+               },
+               "southwest" : {
+                  "lat" : 40.8353385197085,
+                  "lng" : 29.9185885197085
+               }
+            }
+         },
+         "place_id" : "GhIJarx0kxhrREARLt0kBoHrPUA",
+         "plus_code" : {
+            "compound_code" : "RWP9+MX Derince/Kocaeli, Turkey",
+            "global_code" : "8GGFRWP9+MX"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

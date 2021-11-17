@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJUxEmi9pHyxQR2oNXWL785_I",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJUxEmi9pHyxQR2oNXWL785_I",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.7863301,
+               "lng" : 29.8211932
+            },
+            "southwest" : {
+               "lat" : 40.7863301,
+               "lng" : 29.8211932
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Fatih Sultan, Akıncılar Sk. 36-42, 41900 Derince/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.7863301,
+                  "lng" : 29.8211932
+               },
+               "start_address" : "Fatih Sultan, Akıncılar Sk. 36-42, 41900 Derince/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.7863301,
+                  "lng" : 29.8211932
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.7863301,
+                        "lng" : 29.8211932
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eAkıncılar Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qa}wFmm_uD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7863301,
+                        "lng" : 29.8211932
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "qa}wFmm_uD"
+         },
+         "summary" : "Akıncılar Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

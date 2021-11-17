@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "20",
+               "short_name" : "20",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Merhamet Sokak",
+               "short_name" : "Merhamet Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Abdurrahmangazi",
+               "short_name" : "Abdurrahmangazi",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Sultanbeyli",
+               "short_name" : "Sultanbeyli",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34920",
+               "short_name" : "34920",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Abdurrahmangazi, Merhamet Sk. No:20, 34920 Sultanbeyli/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.9623115,
+               "lng" : 29.2537733
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.9636604802915,
+                  "lng" : 29.2551222802915
+               },
+               "southwest" : {
+                  "lat" : 40.9609625197085,
+                  "lng" : 29.2524243197085
+               }
+            }
+         },
+         "place_id" : "ChIJ8WYb4QzQyhQRXrmN0Jr0uNU",
+         "plus_code" : {
+            "compound_code" : "X763+WG Sultanbeyli/İstanbul, Turkey",
+            "global_code" : "8GGFX763+WG"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

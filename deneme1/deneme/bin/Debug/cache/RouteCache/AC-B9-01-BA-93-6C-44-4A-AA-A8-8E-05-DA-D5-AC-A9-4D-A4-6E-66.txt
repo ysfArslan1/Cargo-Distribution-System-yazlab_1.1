@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJLTgFkr9PyxQRkR7dinxhop8",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJLTgFkr9PyxQRkR7dinxhop8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.7796412,
+               "lng" : 29.9502683
+            },
+            "southwest" : {
+               "lat" : 40.7796412,
+               "lng" : 29.9502683
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Bekirdere, Başaran Cd. No:137, 41060 İzmit/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.7796412,
+                  "lng" : 29.9502683
+               },
+               "start_address" : "Bekirdere, Başaran Cd. No:137, 41060 İzmit/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.7796412,
+                  "lng" : 29.9502683
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.7796412,
+                        "lng" : 29.9502683
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eBaşaran Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ww{wFetxuD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7796412,
+                        "lng" : 29.9502683
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ww{wFetxuD"
+         },
+         "summary" : "Başaran Cd.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

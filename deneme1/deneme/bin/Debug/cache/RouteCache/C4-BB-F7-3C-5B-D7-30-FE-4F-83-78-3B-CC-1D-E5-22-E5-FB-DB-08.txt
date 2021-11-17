@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJv64O18KFwxQRNwchxxjm8Lk",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJv64O18KFwxQRNwchxxjm8Lk",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 36.9496984,
+               "lng" : 30.7376131
+            },
+            "southwest" : {
+               "lat" : 36.9496984,
+               "lng" : 30.7376131
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Habibler, 5769. Sk. No:11, 07320 Kepez/Antalya, Turkey",
+               "end_location" : {
+                  "lat" : 36.9496984,
+                  "lng" : 30.7376131
+               },
+               "start_address" : "Habibler, 5769. Sk. No:11, 07320 Kepez/Antalya, Turkey",
+               "start_location" : {
+                  "lat" : 36.9496984,
+                  "lng" : 30.7376131
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 36.9496984,
+                        "lng" : 30.7376131
+                     },
+                     "html_instructions" : "Head on \u003cb\u003e5769. Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "svo`FamrzD"
+                     },
+                     "start_location" : {
+                        "lat" : 36.9496984,
+                        "lng" : 30.7376131
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "svo`FamrzD"
+         },
+         "summary" : "5769. Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,64 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "QMQW+GC",
+               "short_name" : "QMQW+GC",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Körfez",
+               "short_name" : "Körfez",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "QMQW+GC Körfez/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.788875,
+                  "lng" : 29.696125
+               },
+               "southwest" : {
+                  "lat" : 40.78875,
+                  "lng" : 29.696
+               }
+            },
+            "location" : {
+               "lat" : 40.7888125,
+               "lng" : 29.6960625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7901614802915,
+                  "lng" : 29.6974114802915
+               },
+               "southwest" : {
+                  "lat" : 40.7874635197085,
+                  "lng" : 29.6947135197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "GhIJhxbZzvdkREAR1XjpJjGyPUA",
+         "plus_code" : {
+            "compound_code" : "QMQW+GC Körfez/Kocaeli, Turkey",
+            "global_code" : "8GGFQMQW+GC"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

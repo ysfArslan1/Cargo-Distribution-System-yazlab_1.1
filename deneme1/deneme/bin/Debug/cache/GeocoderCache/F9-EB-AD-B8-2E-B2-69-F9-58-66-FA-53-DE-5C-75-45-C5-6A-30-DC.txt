@@ -1,0 +1,73 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "27",
+               "short_name" : "27",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Gümrük Sokak",
+               "short_name" : "Gümrük Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Gaziler Mahallesi",
+               "short_name" : "Gaziler",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Çayırköy Köyü",
+               "short_name" : "Çayırköy Köyü",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kartepe",
+               "short_name" : "Kartepe",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41250",
+               "short_name" : "41250",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gaziler, Gümrük Sk. No:27, 41250 Çayırköy Köyü/Kartepe/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7423122,
+               "lng" : 30.0041897
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.7436611802915,
+                  "lng" : 30.0055386802915
+               },
+               "southwest" : {
+                  "lat" : 40.7409632197085,
+                  "lng" : 30.0028407197085
+               }
+            }
+         },
+         "place_id" : "ChIJrU5Syp1ayxQRzucdvRCpYp0",
+         "plus_code" : {
+            "compound_code" : "P2R3+WM Kartepe/Kocaeli, Turkey",
+            "global_code" : "8GGGP2R3+WM"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJadfYNVhlyxQRhDpAVrdsj6Q",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJadfYNVhlyxQRhDpAVrdsj6Q",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.4650863,
+               "lng" : 29.9778892
+            },
+            "southwest" : {
+               "lat" : 40.4650863,
+               "lng" : 29.9778892
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Ahiler, Ahiler Köyü Yolu, 11500 Pamukova/Sakarya, Turkey",
+               "end_location" : {
+                  "lat" : 40.4650863,
+                  "lng" : 29.9778892
+               },
+               "start_address" : "Ahiler, Ahiler Köyü Yolu, 11500 Pamukova/Sakarya, Turkey",
+               "start_location" : {
+                  "lat" : 40.4650863,
+                  "lng" : 29.9778892
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.4650863,
+                        "lng" : 29.9778892
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eAhiler Köyü Yolu\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yi~uFy`~uD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4650863,
+                        "lng" : 29.9778892
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "yi~uFy`~uD"
+         },
+         "summary" : "Ahiler Köyü Yolu",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

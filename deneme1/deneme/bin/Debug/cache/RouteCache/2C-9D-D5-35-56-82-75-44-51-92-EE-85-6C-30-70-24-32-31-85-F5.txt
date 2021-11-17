@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQcjePj7PyBQRon_u0mTLf_c",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQcjePj7PyBQRon_u0mTLf_c",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 38.886537,
+               "lng" : 30.0032186
+            },
+            "southwest" : {
+               "lat" : 38.886537,
+               "lng" : 30.0032186
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Zafer, Unnamed Road, 43820 Büyükaslıhanlar/Dumlupınar/Kütahya, Turkey",
+               "end_location" : {
+                  "lat" : 38.886537,
+                  "lng" : 30.0032186
+               },
+               "start_address" : "Zafer, Unnamed Road, 43820 Büyükaslıhanlar/Dumlupınar/Kütahya, Turkey",
+               "start_location" : {
+                  "lat" : 38.886537,
+                  "lng" : 30.0032186
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 38.886537,
+                        "lng" : 30.0032186
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "{_jlFc_cvD"
+                     },
+                     "start_location" : {
+                        "lat" : 38.886537,
+                        "lng" : 30.0032186
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "{_jlFc_cvD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

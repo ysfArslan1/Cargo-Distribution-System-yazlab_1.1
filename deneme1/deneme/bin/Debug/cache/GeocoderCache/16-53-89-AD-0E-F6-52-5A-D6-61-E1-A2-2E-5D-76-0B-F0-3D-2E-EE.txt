@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "10",
+               "short_name" : "10",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Elmapınar Sokak",
+               "short_name" : "Elmapınar Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Bağlarbaşı",
+               "short_name" : "Bağlarbaşı",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Osmangazi",
+               "short_name" : "Osmangazi",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Bursa",
+               "short_name" : "Bursa",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "16160",
+               "short_name" : "16160",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Bağlarbaşı, Elmapınar Sk. No:10, 16160 Osmangazi/Bursa, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2353887,
+               "lng" : 28.988238
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2367376802915,
+                  "lng" : 28.9895869802915
+               },
+               "southwest" : {
+                  "lat" : 40.23403971970851,
+                  "lng" : 28.9868890197085
+               }
+            }
+         },
+         "place_id" : "ChIJkeHK-08UyhQRWl3vdbTBH9Y",
+         "plus_code" : {
+            "compound_code" : "6XPQ+57 Osmangazi/Bursa, Turkey",
+            "global_code" : "8GGC6XPQ+57"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

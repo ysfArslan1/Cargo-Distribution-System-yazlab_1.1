@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJzfWszxxQyxQRWo_gpC525bo",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJzfWszxxQyxQRWo_gpC525bo",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.761799,
+               "lng" : 29.977777
+            },
+            "southwest" : {
+               "lat" : 40.761799,
+               "lng" : 29.977777
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Yahyakaptan, Koru Sk. No:3, 41050 İzmit/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.761799,
+                  "lng" : 29.977777
+               },
+               "start_address" : "Yahyakaptan, Koru Sk. No:3, 41050 İzmit/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.761799,
+                  "lng" : 29.977777
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.761799,
+                        "lng" : 29.977777
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eKoru Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ghxwFc`~uD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.761799,
+                        "lng" : 29.977777
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ghxwFc`~uD"
+         },
+         "summary" : "Koru Sk.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

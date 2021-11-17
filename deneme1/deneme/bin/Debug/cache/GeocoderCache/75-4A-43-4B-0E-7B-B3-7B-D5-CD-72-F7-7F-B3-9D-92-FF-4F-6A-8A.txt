@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "23",
+               "short_name" : "23",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mithat Paşa Sokak",
+               "short_name" : "Mithat Paşa Sk.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kurtuluş",
+               "short_name" : "Kurtuluş",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Lüleburgaz",
+               "short_name" : "Lüleburgaz",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kırklareli",
+               "short_name" : "Kırklareli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "39750",
+               "short_name" : "39750",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Kurtuluş, Mithat Paşa Sk. No:23, 39750 Lüleburgaz/Kırklareli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.3984892,
+               "lng" : 27.3567854
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.3998381802915,
+                  "lng" : 27.3581343802915
+               },
+               "southwest" : {
+                  "lat" : 41.3971402197085,
+                  "lng" : 27.3554364197085
+               }
+            }
+         },
+         "place_id" : "ChIJwys1OrKktBQRPcWVJ9DH8W8",
+         "plus_code" : {
+            "compound_code" : "99X4+9P Lüleburgaz/Kırklareli, Turkey",
+            "global_code" : "8GH999X4+9P"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

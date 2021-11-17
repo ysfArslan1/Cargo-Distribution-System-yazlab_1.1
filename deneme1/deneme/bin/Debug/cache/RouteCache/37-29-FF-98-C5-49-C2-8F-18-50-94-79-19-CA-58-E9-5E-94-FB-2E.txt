@@ -1,0 +1,417 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJrU5Syp1ayxQRzucdvRCpYp0",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJc_a0MpNEyxQRhwV8PnC0_v4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.7423217,
+               "lng" : 30.0044532
+            },
+            "southwest" : {
+               "lat" : 40.7064114,
+               "lng" : 29.9415893
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "10.0 km",
+                  "value" : 10003
+               },
+               "duration" : {
+                  "text" : "19 mins",
+                  "value" : 1164
+               },
+               "end_address" : "Serdar, Mezarlık Sk. No:6, 41190 Başiskele/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.7064114,
+                  "lng" : 29.9433029
+               },
+               "start_address" : "Gaziler, Gümrük Sk. No:27, 41250 Çayırköy Köyü/Kartepe/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.7423217,
+                  "lng" : 30.0043721
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 211
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 54
+                     },
+                     "end_location" : {
+                        "lat" : 40.7404261,
+                        "lng" : 30.0044532
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eGümrük Sk.\u003c/b\u003e toward \u003cb\u003eHanedan Sk.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ontwFifcvDhBInGE"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7423217,
+                        "lng" : 30.0043721
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "10 m",
+                        "value" : 10
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 40.7404121,
+                        "lng" : 30.0043361
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKartal Sk.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ubtwFyfcvDBT"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7404261,
+                        "lng" : 30.0044532
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "51 m",
+                        "value" : 51
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 40.7399577,
+                        "lng" : 30.004395
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eGümrük Sk.\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "qbtwFcfcvDxAK"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7404121,
+                        "lng" : 30.0043361
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 478
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 63
+                     },
+                     "end_location" : {
+                        "lat" : 40.7383835,
+                        "lng" : 29.9992087
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKazım Karabekir Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "w_twFofcvDPtB\\~BZxBHZD`@Pt@Ll@Lb@f@xAl@rAh@nAP\\JXH^D^@j@@t@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7399577,
+                        "lng" : 30.004395
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 315
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 40.7388978,
+                        "lng" : 29.9955487
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAtatürk Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "{uswFafbvDYlBOhAWlBARADGdBKhCOvB@r@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7383835,
+                        "lng" : 29.9992087
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.9 km",
+                        "value" : 1895
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 205
+                     },
+                     "end_location" : {
+                        "lat" : 40.7226506,
+                        "lng" : 30.002272
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eÇuhane Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "cyswFeoavDPExFoB`Cu@lAe@h@QdCo@lA[LG`NgEzF_BhC}@bPuFRGxBw@rA]dF}AhCy@\\KvCaAzAi@JC|@Wj@MRCLC`@IHAHAD?D@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7388978,
+                        "lng" : 29.9955487
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.8 km",
+                        "value" : 4781
+                     },
+                     "duration" : {
+                        "text" : "8 mins",
+                        "value" : 504
+                     },
+                     "end_location" : {
+                        "lat" : 40.7226948,
+                        "lng" : 29.9504656
+                     },
+                     "html_instructions" : "\u003cb\u003eÇuhane Cd.\u003c/b\u003e turns \u003cb\u003eright\u003c/b\u003e and becomes \u003cb\u003eKaramürsel Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qspwFeybvDDBBBBDBJLz@`@rDJ~@x@rHb@`EBp@@`@@TAVCTGVABABCDa@b@UXUXw@tAEHEHCBCFADGPERCNATCbBCx@Gv@ShBIv@ERa@~BMfBMxAAT?dA?f@YzCMdBq@jFGh@Gj@Gb@C\\Ch@AXAxB?\\C\\CRAD?DABAFIXInAa@t@ABa@z@GJUf@Qb@Od@Ob@St@Ob@Md@IROb@sAxDo@hBwA|E]hACJMb@Ob@Ux@cAhDSn@oDbMiAtEMb@Mb@]~AJnB_@tBMb@Mj@Kh@A@c@dCQbECv@Av@Ah@?j@?^@t@BbAH|ARfCDt@Fh@B\\BRHl@BXBRFl@^vDBPB\\LzAFl@Fn@Dl@d@xE@Tj@~EFl@L~@ZlBBJZ`B?Bv@lCh@`BRn@DLl@lCj@jADb@j@bBn@nBx@fC|@lCZz@l@dBFRb@pA\\dAb@lAdBtCPr@\\bADJfAtC^z@j@p@zA~A"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7226506,
+                        "lng" : 30.002272
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 282
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : {
+                        "lat" : 40.72066179999999,
+                        "lng" : 29.9484767
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eÇuhadar Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "yspwFmuxuDh@\\j@d@n@n@v@~@tBzBNR`@^n@h@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7226948,
+                        "lng" : 29.9504656
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "89 m",
+                        "value" : 89
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 40.7201741,
+                        "lng" : 29.9476929
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit and stay on \u003cb\u003eÇuhadar Cd.\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "cgpwF_ixuD?@A@?@?@?@?@?@?@?@?@?@?@@??B@@?@@@?@@??@@??@@?@@@@@?@?nApB"
+                     },
+                     "start_location" : {
+                        "lat" : 40.72066179999999,
+                        "lng" : 29.9484767
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 395
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 40.716817,
+                        "lng" : 29.9481572
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eHoca Ahmet Yesevi Cd.\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "adpwFadxuDA@?@?@?@?@?@?@@@?@?@?@@@?@@@?@@??@@??@@??@@?@@@?@?@?@?@?@?@?@?@A@??A@?@A?A@??A?A@??A@APC\\EtH_B|@Wj@A~@?`BN"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7201741,
+                        "lng" : 29.9476929
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 518
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : {
+                        "lat" : 40.7123502,
+                        "lng" : 29.9465962
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003ePasinler Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "coowF_gxuDb@F|AND?~@JLBTBbAJB?ZFD@VDJBhCp@h@TXJ`DtA\\N`@ZVLFBNBb@?"
+                     },
+                     "start_location" : {
+                        "lat" : 40.716817,
+                        "lng" : 29.9481572
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 513
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 58
+                     },
+                     "end_location" : {
+                        "lat" : 40.7097342,
+                        "lng" : 29.9415893
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003ePasinler Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "esnwFg}wuDJ\\LTXj@DDb@z@x@|Al@xAf@lARd@Tf@~@zB~AbErArD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7123502,
+                        "lng" : 29.9465962
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 139
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 23
+                     },
+                     "end_location" : {
+                        "lat" : 40.7087475,
+                        "lng" : 29.942609
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eUlubey Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ybnwF}}vuDLM`AkArBqB"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7097342,
+                        "lng" : 29.9415893
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 227
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 32
+                     },
+                     "end_location" : {
+                        "lat" : 40.7072073,
+                        "lng" : 29.9430444
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eUlubey Cd.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "u|mwFidwuDx@Vb@LbAXb@L`@JJ?B?BADC@ABEj@aD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7087475,
+                        "lng" : 29.942609
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 99
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : {
+                        "lat" : 40.7064114,
+                        "lng" : 29.9433029
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMezarlık Sk.\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "asmwF_gwuDh@L`@@XGVUVWHM"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7072073,
+                        "lng" : 29.9430444
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ontwFifcvDhBInGEBTxAKPtB\\~Bd@tCVvAZpAtAlDz@lBTx@FjA@t@YlBg@vDWhGOvB@r@jGuBnE{Ah@QdCo@zAc@`NgEzF_BlTsHlC_ArA]dF}AfDeArFkBhA[nB_@^ALLPfAl@rF|AtNDrA?l@Kl@i@p@k@r@}@~AOZMd@Ed@G|C[`DOjAa@~BMfBOnB?lBg@`Gy@tGOnAGfACrCCz@Gb@K`@InAa@t@c@~@]r@a@hAc@xAw@`CcCbHuBfHw@lCwAxEoDbMiAtE[fA]~AJnBm@xCYtAe@fCUzFClDDxB\\dFTpCXhCpBhTbAbJz@~E`BnFX|@l@lCj@jADb@j@bBhBvFxAhEvBpGb@lAdBtCn@vBlA`D^z@j@p@zA~Ah@\\zAtAlDzDp@r@n@j@A@?F@JDLHDnArB?D@JJNP@LOn@IrJwBjBAdCVpD^xBVrD|@bGfCx@h@VFb@?J\\f@`Ah@`Ax@|Al@xAz@rBtAbDrDvJnAyArBqBx@VfBf@dAXN?HEDGj@aDh@L`@@XGn@m@HM"
+         },
+         "summary" : "Karamürsel Cd.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

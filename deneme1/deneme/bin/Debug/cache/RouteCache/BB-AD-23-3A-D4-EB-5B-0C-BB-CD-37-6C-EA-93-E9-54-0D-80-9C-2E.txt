@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ650B6w2zhEAR0M4pBNd4bkE",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ650B6w2zhEAR0M4pBNd4bkE",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.4042398,
+               "lng" : 32.9433811
+            },
+            "southwest" : {
+               "lat" : 41.4042398,
+               "lng" : 32.9433811
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Çalışlar, Unnamed Road, 78300 Eflani/Karabük, Turkey",
+               "end_location" : {
+                  "lat" : 41.4042398,
+                  "lng" : 32.9433811
+               },
+               "start_address" : "Çalışlar, Unnamed Road, 78300 Eflani/Karabük, Turkey",
+               "start_location" : {
+                  "lat" : 41.4042398,
+                  "lng" : 32.9433811
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.4042398,
+                        "lng" : 32.9433811
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "owu{FcgahE"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4042398,
+                        "lng" : 32.9433811
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "owu{FcgahE"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

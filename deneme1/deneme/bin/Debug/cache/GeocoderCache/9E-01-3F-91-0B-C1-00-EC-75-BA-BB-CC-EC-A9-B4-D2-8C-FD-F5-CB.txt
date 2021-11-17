@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "137",
+               "short_name" : "137",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Başaran Caddesi",
+               "short_name" : "Başaran Cd.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Bekirdere",
+               "short_name" : "Bekirdere",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "İzmit",
+               "short_name" : "İzmit",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "41060",
+               "short_name" : "41060",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Bekirdere, Başaran Cd. No:137, 41060 İzmit/Kocaeli, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 40.7796117,
+               "lng" : 29.9501888
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.78096068029151,
+                  "lng" : 29.9515377802915
+               },
+               "southwest" : {
+                  "lat" : 40.77826271970851,
+                  "lng" : 29.9488398197085
+               }
+            }
+         },
+         "place_id" : "ChIJLTgFkr9PyxQRkR7dinxhop8",
+         "plus_code" : {
+            "compound_code" : "QXH2+R3 İzmit/Kocaeli, Turkey",
+            "global_code" : "8GGFQXH2+R3"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

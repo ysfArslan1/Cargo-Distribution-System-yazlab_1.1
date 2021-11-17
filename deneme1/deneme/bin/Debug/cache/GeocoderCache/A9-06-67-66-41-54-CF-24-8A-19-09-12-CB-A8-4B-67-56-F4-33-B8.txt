@@ -1,0 +1,64 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "RX5J+CM",
+               "short_name" : "RX5J+CM",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "İzmit",
+               "short_name" : "İzmit",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "RX5J+CM İzmit/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.808625,
+                  "lng" : 29.98175
+               },
+               "southwest" : {
+                  "lat" : 40.8085,
+                  "lng" : 29.981625
+               }
+            },
+            "location" : {
+               "lat" : 40.8085625,
+               "lng" : 29.9816875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.8099114802915,
+                  "lng" : 29.9830364802915
+               },
+               "southwest" : {
+                  "lat" : 40.8072135197085,
+                  "lng" : 29.9803385197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "GhIJ0SLb-X5nREARWmQ730_7PUA",
+         "plus_code" : {
+            "compound_code" : "RX5J+CM İzmit/Kocaeli, Turkey",
+            "global_code" : "8GGFRX5J+CM"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

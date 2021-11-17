@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "QCF5+WV",
+               "short_name" : "QCF5+WV",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Sincan",
+               "short_name" : "Sincan",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ankara",
+               "short_name" : "Ankara",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "QCF5+WV Sincan/Ankara, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 39.774875,
+                  "lng" : 32.40975
+               },
+               "southwest" : {
+                  "lat" : 39.77475,
+                  "lng" : 32.409625
+               }
+            },
+            "location" : {
+               "lat" : 39.7748125,
+               "lng" : 32.4096875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.7761614802915,
+                  "lng" : 32.4110364802915
+               },
+               "southwest" : {
+                  "lat" : 39.77346351970851,
+                  "lng" : 32.4083385197085
+               }
+            }
+         },
+         "place_id" : "GhIJGARWDi3jQ0ARPQrXo3A0QEA",
+         "plus_code" : {
+            "compound_code" : "QCF5+WV Sincan/Ankara, Turkey",
+            "global_code" : "8GFJQCF5+WV"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

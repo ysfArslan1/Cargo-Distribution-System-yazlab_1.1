@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "VV67+JC",
+               "short_name" : "VV67+JC",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Derince",
+               "short_name" : "Derince",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "VV67+JC Derince/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.861625,
+                  "lng" : 29.863625
+               },
+               "southwest" : {
+                  "lat" : 40.8615,
+                  "lng" : 29.8635
+               }
+            },
+            "location" : {
+               "lat" : 40.8615625,
+               "lng" : 29.8635625
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.86291148029149,
+                  "lng" : 29.8649114802915
+               },
+               "southwest" : {
+                  "lat" : 40.8602135197085,
+                  "lng" : 29.8622135197085
+               }
+            }
+         },
+         "place_id" : "GhIJ4XoUrkduREART42XbhLdPUA",
+         "plus_code" : {
+            "compound_code" : "VV67+JC Derince/Kocaeli, Turkey",
+            "global_code" : "8GGFVV67+JC"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

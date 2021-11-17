@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-YKanFjYyhQRX7rfInQYRHk",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-YKanFjYyhQRX7rfInQYRHk",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.881545,
+               "lng" : 29.3869055
+            },
+            "southwest" : {
+               "lat" : 40.881545,
+               "lng" : 29.3869055
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Mermerciler Cd. No:15, 34956 Aydınlı - İstanbul Ay Osb/Tuzla/İstanbul, Turkey",
+               "end_location" : {
+                  "lat" : 40.881545,
+                  "lng" : 29.3869055
+               },
+               "start_address" : "Mermerciler Cd. No:15, 34956 Aydınlı - İstanbul Ay Osb/Tuzla/İstanbul, Turkey",
+               "start_location" : {
+                  "lat" : 40.881545,
+                  "lng" : 29.3869055
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.881545,
+                        "lng" : 29.3869055
+                     },
+                     "html_instructions" : "Head on \u003cb\u003eMermerciler Cd.\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "stoxFesjrD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.881545,
+                        "lng" : 29.3869055
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "stoxFesjrD"
+         },
+         "summary" : "Mermerciler Cd.",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

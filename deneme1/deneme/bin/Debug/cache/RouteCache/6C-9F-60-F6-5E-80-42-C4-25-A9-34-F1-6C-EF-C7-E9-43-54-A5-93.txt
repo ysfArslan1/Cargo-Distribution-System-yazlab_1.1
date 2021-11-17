@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ6bE2bYRI0xQRkAmL7w3whU4",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ6bE2bYRI0xQRkAmL7w3whU4",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 39.9180747,
+               "lng" : 32.7721516
+            },
+            "southwest" : {
+               "lat" : 39.9180747,
+               "lng" : 32.7721516
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Bahçekapı, Sakıp Sabancı Blv., 06797 Etimesgut/Ankara, Turkey",
+               "end_location" : {
+                  "lat" : 39.9180747,
+                  "lng" : 32.7721516
+               },
+               "start_address" : "Bahçekapı, Sakıp Sabancı Blv., 06797 Etimesgut/Ankara, Turkey",
+               "start_location" : {
+                  "lat" : 39.9180747,
+                  "lng" : 32.7721516
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 39.9180747,
+                        "lng" : 32.7721516
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "}nsrF}x_gE"
+                     },
+                     "start_location" : {
+                        "lat" : 39.9180747,
+                        "lng" : 32.7721516
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "}nsrF}x_gE"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

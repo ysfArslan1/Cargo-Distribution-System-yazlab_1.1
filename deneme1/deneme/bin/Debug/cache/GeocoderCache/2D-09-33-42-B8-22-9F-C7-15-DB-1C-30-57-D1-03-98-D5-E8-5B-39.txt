@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "6",
+               "short_name" : "6",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Şehitler Caddesi",
+               "short_name" : "Şehitler Cd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Zafer",
+               "short_name" : "Zafer",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Çorlu",
+               "short_name" : "Çorlu",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Tekirdağ",
+               "short_name" : "Tekirdağ",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "59850",
+               "short_name" : "59850",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zafer, Şehitler Cd No:6, 59850 Çorlu/Tekirdağ, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.1489206,
+               "lng" : 27.8368071
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.15026958029149,
+                  "lng" : 27.8381560802915
+               },
+               "southwest" : {
+                  "lat" : 41.14757161970849,
+                  "lng" : 27.83545811970849
+               }
+            }
+         },
+         "place_id" : "ChIJWRqB1ivhtBQR4Ykuj5vEuoQ",
+         "plus_code" : {
+            "compound_code" : "4RXP+HP Çorlu/Tekirdağ, Turkey",
+            "global_code" : "8GH94RXP+HP"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

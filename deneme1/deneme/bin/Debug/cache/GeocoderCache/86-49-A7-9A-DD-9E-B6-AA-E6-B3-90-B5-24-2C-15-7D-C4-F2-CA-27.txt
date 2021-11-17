@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "FX7G+2F",
+               "short_name" : "FX7G+2F",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Çerkeşli",
+               "short_name" : "Çerkeşli",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Osmaneli",
+               "short_name" : "Osmaneli",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Bilecik",
+               "short_name" : "Bilecik",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "FX7G+2F Çerkeşli/Osmaneli/Bilecik, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.462625,
+                  "lng" : 29.97625
+               },
+               "southwest" : {
+                  "lat" : 40.46250000000001,
+                  "lng" : 29.976125
+               }
+            },
+            "location" : {
+               "lat" : 40.4625625,
+               "lng" : 29.9761875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.4639114802915,
+                  "lng" : 29.9775364802915
+               },
+               "southwest" : {
+                  "lat" : 40.4612135197085,
+                  "lng" : 29.9748385197085
+               }
+            }
+         },
+         "place_id" : "GhIJke18PzU7REARlkOLbOf5PUA",
+         "plus_code" : {
+            "compound_code" : "FX7G+2F Çerkeşli/Osmaneli/Bilecik, Turkey",
+            "global_code" : "8GGFFX7G+2F"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

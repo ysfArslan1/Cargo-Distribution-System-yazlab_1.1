@@ -1,0 +1,63 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2HC3+G7",
+               "short_name" : "2HC3+G7",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Gebze",
+               "short_name" : "Gebze",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "2HC3+G7 Gebze/Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.021375,
+                  "lng" : 29.55325
+               },
+               "southwest" : {
+                  "lat" : 41.02124999999999,
+                  "lng" : 29.553125
+               }
+            },
+            "location" : {
+               "lat" : 41.0213125,
+               "lng" : 29.5531875
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.02266148029149,
+                  "lng" : 29.5545364802915
+               },
+               "southwest" : {
+                  "lat" : 41.01996351970849,
+                  "lng" : 29.5518385197085
+               }
+            }
+         },
+         "place_id" : "GhIJfT81XrqCREARVw4tsp2NPUA",
+         "plus_code" : {
+            "compound_code" : "2HC3+G7 Gebze/Kocaeli, Turkey",
+            "global_code" : "8GHF2HC3+G7"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

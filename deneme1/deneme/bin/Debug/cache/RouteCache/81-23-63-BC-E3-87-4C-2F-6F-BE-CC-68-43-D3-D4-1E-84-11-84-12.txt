@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJjbh9bu1ayxQRvDcujgL8kps",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJjbh9bu1ayxQRvDcujgL8kps",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.723296,
+               "lng" : 30.0076204
+            },
+            "southwest" : {
+               "lat" : 40.723296,
+               "lng" : 30.0076204
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Rahmiye, İzmit Cd. No:299, 41285 Kartepe/Kocaeli, Turkey",
+               "end_location" : {
+                  "lat" : 40.723296,
+                  "lng" : 30.0076204
+               },
+               "start_address" : "Rahmiye, İzmit Cd. No:299, 41285 Kartepe/Kocaeli, Turkey",
+               "start_location" : {
+                  "lat" : 40.723296,
+                  "lng" : 30.0076204
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 40.723296,
+                        "lng" : 30.0076204
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "swpwFszcvD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.723296,
+                        "lng" : 30.0076204
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "swpwFszcvD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

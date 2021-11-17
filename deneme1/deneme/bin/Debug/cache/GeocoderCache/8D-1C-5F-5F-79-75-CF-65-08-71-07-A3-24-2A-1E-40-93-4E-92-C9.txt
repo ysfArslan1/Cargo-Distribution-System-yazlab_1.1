@@ -1,0 +1,49 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Kocaeli",
+               "short_name" : "Kocaeli",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Kocaeli, Turkey",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.20976,
+                  "lng" : 30.367743
+               },
+               "southwest" : {
+                  "lat" : 40.524151,
+                  "lng" : 29.3331261
+               }
+            },
+            "location" : {
+               "lat" : 40.8532704,
+               "lng" : 29.8815203
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.20976,
+                  "lng" : 30.367743
+               },
+               "southwest" : {
+                  "lat" : 40.524151,
+                  "lng" : 29.3331261
+               }
+            }
+         },
+         "place_id" : "ChIJQ8zKb5QgyxQRWdhW642zLKg",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

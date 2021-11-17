@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "15",
+               "short_name" : "15",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Özdoğan Sokak",
+               "short_name" : "Özdoğan Sk",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Türkoba Mh",
+               "short_name" : "Türkoba Mh",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Büyükçekmece",
+               "short_name" : "Büyükçekmece",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "İstanbul",
+               "short_name" : "İstanbul",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Turkey",
+               "short_name" : "TR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "34537",
+               "short_name" : "34537",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Türkoba Mh, Özdoğan Sk No:15, 34537 Büyükçekmece/İstanbul, Turkey",
+         "geometry" : {
+            "location" : {
+               "lat" : 41.054373,
+               "lng" : 28.498055
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.05572198029149,
+                  "lng" : 28.4994039802915
+               },
+               "southwest" : {
+                  "lat" : 41.0530240197085,
+                  "lng" : 28.4967060197085
+               }
+            }
+         },
+         "place_id" : "ChIJ8bqmWNdctRQRIF0xE-VaY58",
+         "plus_code" : {
+            "compound_code" : "3F3X+P6 Büyükçekmece/İstanbul, Turkey",
+            "global_code" : "8GHC3F3X+P6"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

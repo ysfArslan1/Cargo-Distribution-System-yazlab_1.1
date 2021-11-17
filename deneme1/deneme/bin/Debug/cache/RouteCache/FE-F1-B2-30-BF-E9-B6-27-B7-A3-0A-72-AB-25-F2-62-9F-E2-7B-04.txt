@@ -1,0 +1,85 @@
+﻿{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ5eMEM_rVn0AROsiYzffGOP4",
+         "types" : [ "route" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ5eMEM_rVn0AROsiYzffGOP4",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.0857006,
+               "lng" : 29.3378621
+            },
+            "southwest" : {
+               "lat" : 41.0857006,
+               "lng" : 29.3378621
+            }
+         },
+         "copyrights" : "Map data ©2021",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1 m",
+                  "value" : 0
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 0
+               },
+               "end_address" : "Koçullu, Yüzyıl Cd., 34799 Çekmeköy/İstanbul, Turkey",
+               "end_location" : {
+                  "lat" : 41.0857006,
+                  "lng" : 29.3378621
+               },
+               "start_address" : "Koçullu, Yüzyıl Cd., 34799 Çekmeköy/İstanbul, Turkey",
+               "start_location" : {
+                  "lat" : 41.0857006,
+                  "lng" : 29.3378621
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 41.0857006,
+                        "lng" : 29.3378621
+                     },
+                     "html_instructions" : "Head",
+                     "polyline" : {
+                        "points" : "spwyFs`arD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.0857006,
+                        "lng" : 29.3378621
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "spwyFs`arD"
+         },
+         "summary" : "",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
