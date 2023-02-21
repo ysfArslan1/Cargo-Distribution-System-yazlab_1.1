@@ -23,8 +23,7 @@ Proje geliştirmede:
 Projede bulut tabanlı bir database olan “Firebase” kullanılmıştır. Firebase ile işlem
 yapabilmek için “FireSharp” kütüphanesini kullandık. Haritadan gerekli olan bilgileri alabilmek için GoogleMaps API kullanılmıştır. Kütüphane olarak Gmap kütüphanesi olan “GMap.NET” kullanılmıştır.
 Programlama dili olarak “C#” kullanılmıştır.
-Program geliştirme ortamı olarak “Visual Studio
-Code” kullanılmıştır.
+Program geliştirme ortamı olarak “Visual Studio” kullanılmıştır.
 # 3. Tasarım
 Projenin geliştirilmesi aşağıdaki başlıklar altında
 inceleyelim.
